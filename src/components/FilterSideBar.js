@@ -46,6 +46,7 @@ toggle(event) {
                 </DropdownMenu>
                 </Dropdown>
                 <row>
+                <Button color="primary" size="lg" >Generate</Button>
                 </row>
             </CardBody>
             </Card>
