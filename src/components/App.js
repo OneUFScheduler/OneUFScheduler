@@ -11,7 +11,6 @@ class App extends Component {
         <NavBar />
         <div class="row">
         <div class ="column"><FilterSideBar /></div>
-        <div class="column"><Schedule /> </div> 
         </div>
       </div>
     );

@@ -1,20 +1,46 @@
 import React, { Component } from 'react';
 import {Card, CardBody, CardTitle, Table} from 'reactstrap';
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import {Button, Modal, ModalHeader, ModalBody, ModalFooter, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+
+import data from './data.json';
 
 class Schedule extends React.Component{
     constructor(props) {
         super(props);
-    this.toggle = this.toggle.bind(this);
+    this.toggleDrop = this.toggleDrop.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
+    this.select = this.select.bind(this);
     this.state = {
-      dropdownOpen: false
+      dropdownOpen: false,
+      modal: false,
+      className: "Tech elective",
+      numClass: this.props.numClass,
     };
 }
-toggle() {
-    this.setState(prevState => ({
-      dropdownOpen: !prevState.dropdownOpen
-    }));
-  }
+    
+    toggleDrop() {
+        this.setState(prevState => ({
+            dropdownOpen: !prevState.dropdownOpen,
+        }));
+    }
+
+    toggleModal() {
+        this.setState(prevState => ({
+            modal: !this.state.modal
+        }));
+    }
+
+    select(event) {
+        this.setState({
+          className: event.target.innerText
+        });
+      }
+
+      handleClick(){
+          this.setState({
+              numClass: this.props.numClass
+          })
+      }
 
     render(){
         return(
@@ -32,27 +58,38 @@ toggle() {
                 <tbody>
                     <tr>
                         <th>Gen Ed</th>
-                        <th><Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                        <th><Dropdown value = {this.state.className} isOpen={this.state.dropdownOpen} toggle={this.toggleDrop}>
                             <DropdownToggle caret>
-                                Some Class @ MWF
+                                {this.state.className}
                             </DropdownToggle>
                             <DropdownMenu>
-                                <DropdownItem>Some other Class Name @ MWF</DropdownItem>
-                                <DropdownItem>Another Class @ some time</DropdownItem>
+                                <DropdownItem onClick={this.state.select}>Some other Class Name @ MWF</DropdownItem>
+                                <DropdownItem onClick={this.state.select}>Another Class @ some time</DropdownItem>
                             </DropdownMenu>
                             </Dropdown>
                         </th>
-                        <th>3</th>
+                        <th onClick={this.handlClick}>{this.numClass}</th>
                     </tr>
                     <tr>
                         <th>Required Class</th>
-                        <th><a href="#">Some Other Class Name @ MWF</a></th>
-                        <th>3</th>
+                        <th><a href="#" onClick={this.toggleModal}>Some Other Class Name @ MWF</a></th>
+                        <Modal isOpen={this.state.modal} toggle={this.toggleModal} className={this.props.className}>
+                            <ModalHeader toggle={this.toggleModal}>Class Information</ModalHeader>
+                            <ModalBody>
+                                This will display extra info like a brief description of the class along with the professor, exam dates, etc.
+                            </ModalBody>
+                            <ModalFooter>
+                            </ModalFooter>
+                        </Modal>
+                        <th>{ data.map(function(c){
+                            return <li>{c.code}</li>;
+                        })}</th>
                     </tr>
                 </tbody>
                 </Table>
             </CardBody>
             </Card>
+           
         )
     }
 }
