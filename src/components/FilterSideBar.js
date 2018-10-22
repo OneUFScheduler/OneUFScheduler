@@ -46,11 +46,10 @@ toggle(event) {
                 </DropdownMenu>
                 </Dropdown>
                 <row>
-                <Button color="primary" size="lg" onClick={this.dropNum.bind(this)}>Generate</Button>
                 </row>
             </CardBody>
             </Card>
-            <div class="column"><Schedule numClass={this.props.dropNum}/> </div> 
+            <div class="column"><Schedule numClass={this.props.dropNum}/> </div>
             </div>
         )
     }

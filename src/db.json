@@ -8709,4 +8709,2257 @@
           }
         ]
       }
+      {
+  "code": "COP6726",
+  "courseId": "022772",
+  "name": "Database Sys Implemen",
+  "termInd": " ",
+  "description": "DBMS architecture, query processing and optimization, transaction processing, index structures, parallel query processing, object-oriented and object-relational databases, and related topics.",
+  "prerequisites": "Prereq: COP 4600 and 4720 or COP 5725.",
+  "sections": [
+    {
+      "number": "06BF",
+      "classNumber": 12916,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Database Sys Implemen",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alin Dobra"
+        },
+        {
+          "name": "Alin Dobra"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "8:30 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "2",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "FAB",
+          "meetBldgCode": "0598",
+          "meetRoom": "0105"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "FAB",
+          "meetBldgCode": "0598",
+          "meetRoom": "0105"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+    }
+  ]
+},
+{
+  "code": "COT3100",
+  "courseId": "010956",
+  "name": "Applications of Discrete Structures",
+  "termInd": " ",
+  "description": "Covers the mathematics of discrete events; i.e., events that involve distinct elements, finite structures of distinct elements or finite sampled versions of continuous phenomena (such as movement). (M)",
+  "prerequisites": "Prereq: MAC 2233 or MAC 2311 or MAC 3472; Coreq: COP 3504 or COP 3503.",
+  "sections": [
+    {
+      "number": "16GH",
+      "classNumber": 12919,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "MCCB",
+          "meetBldgCode": "0496",
+          "meetRoom": "G086"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 1931,
+      "classNumber": 12920,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E220"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 1934,
+      "classNumber": 12921,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "FLI",
+          "meetBldgCode": "0008",
+          "meetRoom": "0105"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": "1F82",
+      "classNumber": 12949,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E221"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": "25H6",
+      "classNumber": 12951,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "FLG",
+          "meetBldgCode": "0021",
+          "meetRoom": "0265"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 3751,
+      "classNumber": 12952,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "MAEB",
+          "meetBldgCode": "0720",
+          "meetRoom": "0211"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 3761,
+      "classNumber": 12953,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E221"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    }
+  ]
+},
+{
+  "code": "COT4501",
+  "courseId": "021137",
+  "name": "Numerical Analysis: a Computational Approach",
+  "termInd": " ",
+  "description": "Numerical integration, nonlinear equations, linear and nonlinear systems of equations, differential equations and interpolation.",
+  "prerequisites": "Prereq: COP 3504 or COP 3503 and MAS 3114.",
+  "sections": [
+    {
+      "number": 1090,
+      "classNumber": 12955,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Num Analys Computa",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Anand Rangarajan"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "M",
+            "W",
+            "F"
+          ],
+          "meetTimeBegin": "10:40 AM",
+          "meetTimeEnd": "11:30 AM",
+          "meetPeriodBegin": "4",
+          "meetPeriodEnd": "4",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E119"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+    }
+  ]
+},
+{
+  "code": "COT5405",
+  "courseId": "017533",
+  "name": "Analys of Algorithms",
+  "termInd": " ",
+  "description": "Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.",
+  "prerequisites": "Prereq: COP 3530.",
+  "sections": [
+    {
+      "number": "047B",
+      "classNumber": 12984,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PD",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Christina Boucher"
+        },
+        {
+          "name": "Christina Boucher"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "8:30 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "2",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "NEB",
+          "meetBldgCode": "0033",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "NEB",
+          "meetBldgCode": "0033",
+          "meetRoom": "0100"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+    },
+    {
+      "number": 1091,
+      "classNumber": 12986,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "AD",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Christina Boucher"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    },
+    {
+      "number": "11CB",
+      "classNumber": 12987,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "AD",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Christina Boucher"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+},
+{
+  "code": "COT5442",
+  "courseId": "025652",
+  "name": "Approx Algorithms",
+  "termInd": " ",
+  "description": "Fundamentals of algorithmic paradigms, analysis, techniques, and software. Topics include greedy methods, randomized algorithms, lP-rounding, approximability, covering, packing, clustering, and network problems.",
+  "prerequisites": "Prereq: COP 3530 or COT 5405 ",
+  "sections": [
+    {
+      "number": 3486,
+      "classNumber": 12989,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Approx Algorithms",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "My Thai"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "M",
+            "W",
+            "F"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "WM",
+          "meetBldgCode": "0100",
+          "meetRoom": "0100"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "4/30/2019 @ 10:00 AM - 12:00 PM"
+    }
+  ]
+},
+{
+  "code": "COT5615",
+  "courseId": "025653",
+  "name": "Math Intelligent Sys",
+  "termInd": " ",
+  "description": "Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.",
+  "prerequisites": "Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.",
+  "sections": [
+    {
+      "number": "349B",
+      "classNumber": 12990,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Arunava Banerjee"
+        },
+        {
+          "name": "Arunava Banerjee"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "3:00 PM",
+          "meetTimeEnd": "4:55 PM",
+          "meetPeriodBegin": "8",
+          "meetPeriodEnd": "9",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E222"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "4:05 PM",
+          "meetTimeEnd": "4:55 PM",
+          "meetPeriodBegin": "9",
+          "meetPeriodEnd": "9",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E222"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+    }
+  ]
+},
+{
+  "code": "EGN4912",
+  "courseId": "026625",
+  "name": "Engineering Directed Independent Research",
+  "termInd": " ",
+  "description": "Provides firsthand, supervised research with a faculty advisor or postdoctoral or graduate student mentor. Projects may involve inquiry, design, investigation, scholarship, discovery or application. (S-U)",
+  "prerequisites": "",
+  "sections": [
+    {
+      "number": "182G",
+      "classNumber": 14162,
+      "gradBasis": "SUS",
+      "acadCareer": "UGRD",
+      "display": "Departmentally Controlled",
+      "credits": "VAR",
+      "credits_min": 0,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "ENGINEERING RESEARCH",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Richard Newman"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+},
+{
+  "code": "EGN5949",
+  "courseId": "022923",
+  "name": "Prac/Intern/Coop Work",
+  "termInd": " ",
+  "description": "Practical cooperative engineering work under approved industrial and faculty supervision.",
+  "prerequisites": "Prereq: graduate student.",
+  "sections": [
+    {
+      "number": 4067,
+      "classNumber": 14200,
+      "gradBasis": "SUS",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": "VAR",
+      "credits_min": 1,
+      "credits_max": 6,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Ahmed Helmy"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+},
+{
+  "code": "EGN6913",
+  "courseId": "027610",
+  "name": "Engineering Grad Rsch",
+  "termInd": " ",
+  "description": "Course will provide the student with supervised research in a laboratory setting.",
+  "prerequisites": "",
+  "sections": [
+    {
+      "number": "26EA",
+      "classNumber": 14270,
+      "gradBasis": "SUS",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": "VAR",
+      "credits_min": 0,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "ENGINEERING GRAD RSCH",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Ahmed Helmy"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+}
+
+
+
+{
+  "code": "COP6726",
+  "courseId": "022772",
+  "name": "Database Sys Implemen",
+  "termInd": " ",
+  "description": "DBMS architecture, query processing and optimization, transaction processing, index structures, parallel query processing, object-oriented and object-relational databases, and related topics.",
+  "prerequisites": "Prereq: COP 4600 and 4720 or COP 5725.",
+  "sections": [
+    {
+      "number": "06BF",
+      "classNumber": 12916,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Database Sys Implemen",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alin Dobra"
+        },
+        {
+          "name": "Alin Dobra"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "8:30 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "2",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "FAB",
+          "meetBldgCode": "0598",
+          "meetRoom": "0105"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "FAB",
+          "meetBldgCode": "0598",
+          "meetRoom": "0105"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+    }
+  ]
+},
+{
+  "code": "COT3100",
+  "courseId": "010956",
+  "name": "Applications of Discrete Structures",
+  "termInd": " ",
+  "description": "Covers the mathematics of discrete events; i.e., events that involve distinct elements, finite structures of distinct elements or finite sampled versions of continuous phenomena (such as movement). (M)",
+  "prerequisites": "Prereq: MAC 2233 or MAC 2311 or MAC 3472; Coreq: COP 3504 or COP 3503.",
+  "sections": [
+    {
+      "number": "16GH",
+      "classNumber": 12919,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "MCCB",
+          "meetBldgCode": "0496",
+          "meetRoom": "G086"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 1931,
+      "classNumber": 12920,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E220"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 1934,
+      "classNumber": 12921,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "FLI",
+          "meetBldgCode": "0008",
+          "meetRoom": "0105"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": "1F82",
+      "classNumber": 12949,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E221"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": "25H6",
+      "classNumber": 12951,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "FLG",
+          "meetBldgCode": "0021",
+          "meetRoom": "0265"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 3751,
+      "classNumber": 12952,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "MAEB",
+          "meetBldgCode": "0720",
+          "meetRoom": "0211"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    },
+    {
+      "number": 3761,
+      "classNumber": 12953,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Appli Discrete Struc",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+        "Mathematics"
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        },
+        {
+          "name": "Alper Ungor"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "8:15 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "1",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "7:25 AM",
+          "meetTimeEnd": "9:20 AM",
+          "meetPeriodBegin": "1",
+          "meetPeriodEnd": "2",
+          "meetBuilding": "CAR",
+          "meetBldgCode": "0022",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 3,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E221"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 8:00 PM - 10:00 PM"
+    }
+  ]
+},
+{
+  "code": "COT4501",
+  "courseId": "021137",
+  "name": "Numerical Analysis: a Computational Approach",
+  "termInd": " ",
+  "description": "Numerical integration, nonlinear equations, linear and nonlinear systems of equations, differential equations and interpolation.",
+  "prerequisites": "Prereq: COP 3504 or COP 3503 and MAS 3114.",
+  "sections": [
+    {
+      "number": 1090,
+      "classNumber": 12955,
+      "gradBasis": "GRD",
+      "acadCareer": "UGRD",
+      "display": "Num Analys Computa",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Anand Rangarajan"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "M",
+            "W",
+            "F"
+          ],
+          "meetTimeBegin": "10:40 AM",
+          "meetTimeEnd": "11:30 AM",
+          "meetPeriodBegin": "4",
+          "meetPeriodEnd": "4",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E119"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+    }
+  ]
+},
+{
+  "code": "COT5405",
+  "courseId": "017533",
+  "name": "Analys of Algorithms",
+  "termInd": " ",
+  "description": "Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.",
+  "prerequisites": "Prereq: COP 3530.",
+  "sections": [
+    {
+      "number": "047B",
+      "classNumber": 12984,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PD",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Christina Boucher"
+        },
+        {
+          "name": "Christina Boucher"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "8:30 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "2",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "NEB",
+          "meetBldgCode": "0033",
+          "meetRoom": "0100"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "9:35 AM",
+          "meetTimeEnd": "10:25 AM",
+          "meetPeriodBegin": "3",
+          "meetPeriodEnd": "3",
+          "meetBuilding": "NEB",
+          "meetBldgCode": "0033",
+          "meetRoom": "0100"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+    },
+    {
+      "number": 1091,
+      "classNumber": 12986,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "AD",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Christina Boucher"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    },
+    {
+      "number": "11CB",
+      "classNumber": 12987,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "AD",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Christina Boucher"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+},
+{
+  "code": "COT5442",
+  "courseId": "025652",
+  "name": "Approx Algorithms",
+  "termInd": " ",
+  "description": "Fundamentals of algorithmic paradigms, analysis, techniques, and software. Topics include greedy methods, randomized algorithms, lP-rounding, approximability, covering, packing, clustering, and network problems.",
+  "prerequisites": "Prereq: COP 3530 or COT 5405 ",
+  "sections": [
+    {
+      "number": 3486,
+      "classNumber": 12989,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Approx Algorithms",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "My Thai"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "M",
+            "W",
+            "F"
+          ],
+          "meetTimeBegin": "11:45 AM",
+          "meetTimeEnd": "12:35 PM",
+          "meetPeriodBegin": "5",
+          "meetPeriodEnd": "5",
+          "meetBuilding": "WM",
+          "meetBldgCode": "0100",
+          "meetRoom": "0100"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "4/30/2019 @ 10:00 AM - 12:00 PM"
+    }
+  ]
+},
+{
+  "code": "COT5615",
+  "courseId": "025653",
+  "name": "Math Intelligent Sys",
+  "termInd": " ",
+  "description": "Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.",
+  "prerequisites": "Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.",
+  "sections": [
+    {
+      "number": "349B",
+      "classNumber": 12990,
+      "gradBasis": "GRD",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": 3,
+      "credits_min": 3,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Arunava Banerjee"
+        },
+        {
+          "name": "Arunava Banerjee"
+        }
+      ],
+      "meetTimes": [
+        {
+          "meetNo": 1,
+          "meetDays": [
+            "T"
+          ],
+          "meetTimeBegin": "3:00 PM",
+          "meetTimeEnd": "4:55 PM",
+          "meetPeriodBegin": "8",
+          "meetPeriodEnd": "9",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E222"
+        },
+        {
+          "meetNo": 2,
+          "meetDays": [
+            "R"
+          ],
+          "meetTimeBegin": "4:05 PM",
+          "meetTimeEnd": "4:55 PM",
+          "meetPeriodBegin": "9",
+          "meetPeriodEnd": "9",
+          "meetBuilding": "CSE",
+          "meetBldgCode": "0042",
+          "meetRoom": "E222"
+        }
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+    }
+  ]
+},
+{
+  "code": "EGN4912",
+  "courseId": "026625",
+  "name": "Engineering Directed Independent Research",
+  "termInd": " ",
+  "description": "Provides firsthand, supervised research with a faculty advisor or postdoctoral or graduate student mentor. Projects may involve inquiry, design, investigation, scholarship, discovery or application. (S-U)",
+  "prerequisites": "",
+  "sections": [
+    {
+      "number": "182G",
+      "classNumber": 14162,
+      "gradBasis": "SUS",
+      "acadCareer": "UGRD",
+      "display": "Departmentally Controlled",
+      "credits": "VAR",
+      "credits_min": 0,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "ENGINEERING RESEARCH",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Richard Newman"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+},
+{
+  "code": "EGN5949",
+  "courseId": "022923",
+  "name": "Prac/Intern/Coop Work",
+  "termInd": " ",
+  "description": "Practical cooperative engineering work under approved industrial and faculty supervision.",
+  "prerequisites": "Prereq: graduate student.",
+  "sections": [
+    {
+      "number": 4067,
+      "classNumber": 14200,
+      "gradBasis": "SUS",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": "VAR",
+      "credits_min": 1,
+      "credits_max": 6,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "N",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Ahmed Helmy"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+},
+{
+  "code": "EGN6913",
+  "courseId": "027610",
+  "name": "Engineering Grad Rsch",
+  "termInd": " ",
+  "description": "Course will provide the student with supervised research in a laboratory setting.",
+  "prerequisites": "",
+  "sections": [
+    {
+      "number": "26EA",
+      "classNumber": 14270,
+      "gradBasis": "SUS",
+      "acadCareer": "GRAD",
+      "display": "Departmentally Controlled",
+      "credits": "VAR",
+      "credits_min": 0,
+      "credits_max": 3,
+      "note": "",
+      "dNote": "",
+      "genEd": [
+
+      ],
+      "sectWeb": "PC",
+      "rotateTitle": "ENGINEERING GRAD RSCH",
+      "deptCode": 19140000,
+      "deptName": "Computer & Information Science & Engineering",
+      "courseFee": 0,
+      "lateFlag": "N",
+      "EEP": "Y",
+      "LMS": "",
+      "instructors": [
+        {
+          "name": "Ahmed Helmy"
+        }
+      ],
+      "meetTimes": [
+
+      ],
+      "addEligible": "Y",
+      "grWriting": "N",
+      "dropaddDeadline": "01/11/2019",
+      "pastDeadline": false,
+      "finalExam": ""
+    }
+  ]
+}
+]
+
+
+
+
+
     ]
