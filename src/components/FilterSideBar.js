@@ -46,7 +46,7 @@ toggle(event) {
                 </DropdownMenu>
                 </Dropdown>
                 <row>
-                <Button color="primary" size="lg">Generate</Button>
+                <Button color="primary" size="lg" onClick={this.dropNum.bind(this)}>Generate</Button>
                 </row>
             </CardBody>
             </Card>
