@@ -13,7 +13,7 @@ class FilterSideBar extends React.Component{
     this.selectElect = this.selectElect.bind(this);
     this.toggleTime = this.toggleTime.bind(this);
     this.selectTime = this.selectTime.bind(this);
-    this.update = this.update.bind(this);
+    this.handleGen = this.handleGen.bind(this);
     this.onSearch = this.onSearch.bind(this);
     this.state = {
       dropdownOpen: false,
@@ -22,9 +22,9 @@ class FilterSideBar extends React.Component{
       dropTime: "Time Preference",
       dropNum: "Number of Classes",
       dropElective: "Number of Electives",
-      jsonData: [],
+      jsonData: data,
       search: '',
-      filteredData: []
+      genButton: false,
     };
 }
 toggle(event) {
@@ -63,31 +63,21 @@ toggle(event) {
     }));
   }
 
-  update () {
-    this.setState({
-        dropNum: this.dropNum
-      });
+  handleGen(event){
+      event.preventDefault();
+    this.setState(prevState => ({
+        genButton: !prevState.genButton
+      }));
   }
+
 
   onSearch(event){
       this.setState({
           search: event.target.value
-      });
-  }
-
-  handleFilter(filteredData){
-     filteredData.map((c) => {
-        return <li>{c.code}</li>;
-    })
-  }
+      })
+ }
 
     render(){
-        
-        let filteredData = data.filter(
-            (c) => {
-                return c.code.indexOf(this.state.search)!== -1;
-            }
-        )
         return (
             <div>
             <Card>
@@ -128,7 +118,7 @@ toggle(event) {
                     <DropdownItem value="6" onClick={this.selectElect}>6</DropdownItem>
                     <DropdownItem value="7" onClick={this.selectElect}>7</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem value =" " onClick={this.select}>Clear</DropdownItem>
+                    <DropdownItem value =" " onClick={this.selectElect}>Clear</DropdownItem>
                 </DropdownMenu>
                 </Dropdown>
                 <br />
@@ -141,7 +131,7 @@ toggle(event) {
                     <DropdownItem value="AM" onClick={this.selectTime}>AM</DropdownItem>
                     <DropdownItem value="PM" onClick={this.selectTime}>PM</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem value =" " onClick={this.select}>Clear</DropdownItem>
+                    <DropdownItem value =" " onClick={this.selectTime}>Clear</DropdownItem>
                 </DropdownMenu>
                 </Dropdown>
                 <br />
@@ -150,17 +140,16 @@ toggle(event) {
                 <Label>Include Specific Course</Label>
                 <Input type="class" name="class" placeholder="input course code" onChange={this.onSearch} />
                 </FormGroup>
-                <ul> { this.handleFilter(filteredData)}
-
-                </ul>
-                <Button color="primary" size="lg" onClick={this.update.bind(this)}>Generate</Button>
+                
+                <Button color="primary" size="lg" onClick={this.handleGen}>Generate</Button>
                 
             </CardBody>
             </Card>
-            <div class="column"><Schedule numClass={this.state.dropNum}> </Schedule></div>
+            <div class="column">
+            <Schedule genButton={this.state.genButton} numClass={this.state.dropNum} timePref={this.state.dropTime}> </Schedule>
+            </div>
             </div>
         )
     }
 }
-
 export default FilterSideBar;

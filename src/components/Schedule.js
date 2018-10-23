@@ -1,34 +1,39 @@
 import React, { Component } from 'react';
 import {Card, CardBody, CardTitle, Table} from 'reactstrap';
-import {Button, Modal, ModalHeader, ModalBody, ModalFooter, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import {UncontrolledDropdown, Button, Modal, ModalHeader, ModalBody, ModalFooter, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 import data from './data.json';
 
 class Schedule extends React.Component{
     constructor(props) {
         super(props);
-    this.toggleDrop = this.toggleDrop.bind(this);
     this.toggleModal = this.toggleModal.bind(this);
-    this.select = this.select.bind(this);
+
     this.state = {
-      dropdownOpen: false,
+     // dropdownOpen: false,
       modal: false,
-      className: "Tech elective",
+     // className: "Tech elective",
       numClass: null,
+     // Jdata: this.props.data,
+      timePref: null,
+      filteredData: data,
+      genButton: this.props.genButton,
+
     };
 }
 componentDidUpdate(prevProps) {
-    // Typical usage (don't forget to compare props):
-    if (this.props.numClass !== prevProps.numClass) {
-      this.setState({numClass: this.props.numClass});
-    }
+   
+  //  if(this.props.genButton !== prevProps.genButton){
+        if (this.props.numClass !== prevProps.numClass) {
+            this.setState({numClass: this.props.numClass});
+        }
+        if (this.props.timePref !== prevProps.timePref) {
+            this.setState({timePref: this.props.timePref});
+            this.detTime()
+        }
+       // this.setState({genButton: this.props.genButton})
+  // }
   }
-  
-    toggleDrop() {
-        this.setState(prevState => ({
-            dropdownOpen: !prevState.dropdownOpen,
-        }));
-    }
 
     toggleModal() {
         this.setState(prevState => ({
@@ -36,14 +41,27 @@ componentDidUpdate(prevProps) {
         }));
     }
 
-    select(event) {
-        this.setState({
-          className: event.target.innerText
-        });
-      }
+    detTime(){
+        var sTime = []
+        if(this.props.timePref == 'AM'){
+            data.map((c) => {
+                try{
+                    if(c.sections[0].meetTimes[0].meetTimeBegin == "10:40 AM"){
+                        sTime.push(c)
+                    }
+                }catch(e){
+                    console.log('error', e);        
+                }
+            })
+            this.setState({filteredData : sTime})
+        }
+        if(this.props.timePref == 'PM'){
+
+        }
+    }
 
     render(){
-        
+    
         return(
             <div class="column">
             <Card>
@@ -58,33 +76,22 @@ componentDidUpdate(prevProps) {
                     </tr>
                 </thead>
                 <tbody>
+                    {this.state.filteredData.slice(0,this.props.numClass).map((c) =>
                     <tr>
-                        <th>Gen Ed</th>
-                        <th><Dropdown value = {this.state.className} isOpen={this.state.dropdownOpen} toggle={this.toggleDrop}>
+                        <td>{c.code}</td>
+                        <td><UncontrolledDropdown>>
                             <DropdownToggle caret>
-                                {this.state.className}
+                                {c.name}
                             </DropdownToggle>
                             <DropdownMenu>
                                 <DropdownItem onClick={this.state.select}>Some other Class Name @ MWF</DropdownItem>
                                 <DropdownItem onClick={this.state.select}>Another Class @ some time</DropdownItem>
                             </DropdownMenu>
-                            </Dropdown>
-                        </th>
-                        <th>{this.props.numClass}</th>
+                            </UncontrolledDropdown>
+                        </td>
+                        <td>{c.sections[0].credits}</td>
                     </tr>
-                    <tr>
-                        <th>Required Class</th>
-                        <th><a href="#" onClick={this.toggleModal}>Some Other Class Name @ MWF</a></th>
-                        <Modal isOpen={this.state.modal} toggle={this.toggleModal} className={this.props.className}>
-                            <ModalHeader toggle={this.toggleModal}>Class Information</ModalHeader>
-                            <ModalBody>
-                                This will display extra info like a brief description of the class along with the professor, exam dates, etc.
-                            </ModalBody>
-                            <ModalFooter>
-                            </ModalFooter>
-                        </Modal>
-                        <th>3</th>
-                    </tr>
+                    )}
                 </tbody>
                 </Table>
             </CardBody>
