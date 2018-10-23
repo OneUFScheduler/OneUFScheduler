@@ -26718,6 +26718,4263 @@
             "finalExam": ""
           }
         ]
+      },
+			{
+        "code": "CDA3101",
+        "courseId": "010726",
+        "name": "Introduction to Computer Organization",
+        "termInd": " ",
+        "description": "Organization of computing systems. Logical basis of computer structure. Machine representation of instructions and data, flow of control, and basic machine instructions. Assembly language programming. (M)",
+        "prerequisites": "Credits: 3; Prereq: COP 3504 or COP 3503; and MAC 2233, MAC 2311 or MAC 3472.",
+        "sections": [
+          {
+            "number": 1048,
+            "classNumber": 12084,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0210"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "11DG",
+            "classNumber": 12085,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E220"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1705,
+            "classNumber": 12113,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "RNK",
+                "meetBldgCode": "0272",
+                "meetRoom": "0110"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1709,
+            "classNumber": 12114,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0265"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1711,
+            "classNumber": 12115,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "5:10 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "10",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "17H1",
+            "classNumber": 12116,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "WEIM",
+                "meetBldgCode": "0030",
+                "meetRoom": 1084
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "17HF",
+            "classNumber": 12117,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0260"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 5408,
+            "classNumber": 12119,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "LEI",
+                "meetBldgCode": "0009",
+                "meetRoom": "0207"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 8767,
+            "classNumber": 12120,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Intro to Compu Orgnzn",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              },
+              {
+                "name": "Cheryl Resch"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "FAC",
+                "meetBldgCode": "0599",
+                "meetRoom": "0127"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+			{
+        "code": "CIS4301",
+        "courseId": "010869",
+        "name": "Information and Database Systems 1",
+        "termInd": " ",
+        "description": "First part of a two-course sequence that studies the essential concepts, principles and techniques of modern database systems. Topics include modeling and querying of data using conceptual data models as well as the development of a database application. (M)",
+        "prerequisites": "Credits: 3; Prereq: COP 3504, or COP 3503 and COT 3100.",
+        "sections": [
+          {
+            "number": "0804",
+            "classNumber": 11313,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Peter Dobbins"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "A101"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          },
+          {
+            "number": 7776,
+            "classNumber": 11315,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Info and Database Sys 1",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Peter Dobbins"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "A101"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+			{
+        "code": "COT4501",
+        "courseId": "021137",
+        "name": "Numerical Analysis: a Computational Approach",
+        "termInd": " ",
+        "description": "Numerical integration, nonlinear equations, linear and nonlinear systems of equations, differential equations and interpolation.",
+        "prerequisites": "Prereq: COP 3504 or COP 3503 and MAS 3114.",
+        "sections": [
+          {
+            "number": 1090,
+            "classNumber": 12955,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Num Analys Computa",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Anand Rangarajan"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E119"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+			{
+        "code": "COP4600",
+        "courseId": "016428",
+        "name": "Operating Systems",
+        "termInd": " ",
+        "description": "Design and implementation of various components of a modern operating system, including I/O programming, interrupt handling, process and resource management, computer networks and distributed systems. (M)",
+        "prerequisites": "Prereq: CDA 3101 and COP 3530; knowledge of C or C++ recommended.",
+        "sections": [
+          {
+            "number": "193A",
+            "classNumber": 11153,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": "193B",
+            "classNumber": 11154,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": "193F",
+            "classNumber": 11155,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": "193G",
+            "classNumber": 11156,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E121"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": 5831,
+            "classNumber": 11159,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E121"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          }
+        ]
+      },
+			{
+        "code": "EEL3701C",
+        "courseId": "017114",
+        "name": "Digital Logic and Computer Systems",
+        "termInd": " ",
+        "description": "Overview of logic design, algorithms, computer organization and assembly language programming and computer engineering technology. Laboratory.",
+        "prerequisites": "Prereq: Knowledge of a programming language.",
+        "sections": [
+          {
+            "number": "05EH",
+            "classNumber": 12491,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "M"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "08D0",
+            "classNumber": 12492,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "M"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "08ED",
+            "classNumber": 12493,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "M"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "093E",
+            "classNumber": 12494,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 1249,
+            "classNumber": 12495,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1254,
+            "classNumber": 12496,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1268,
+            "classNumber": 12497,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1277,
+            "classNumber": 12498,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "8:20 PM",
+                "meetTimeEnd": "10:10 PM",
+                "meetPeriodBegin": "E2",
+                "meetPeriodEnd": "E3",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1278,
+            "classNumber": 12525,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "129B",
+            "classNumber": 12526,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "129F",
+            "classNumber": 12527,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "F"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1482,
+            "classNumber": 12528,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "M"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 1485,
+            "classNumber": 12529,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "1D04",
+            "classNumber": 12530,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "M"
+                ],
+                "meetTimeBegin": "8:20 PM",
+                "meetTimeEnd": "10:10 PM",
+                "meetPeriodBegin": "E2",
+                "meetPeriodEnd": "E3",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "1D55",
+            "classNumber": 12531,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 3147,
+            "classNumber": 12532,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 3155,
+            "classNumber": 12560,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:20 PM",
+                "meetTimeEnd": "10:10 PM",
+                "meetPeriodBegin": "E2",
+                "meetPeriodEnd": "E3",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 3177,
+            "classNumber": 12561,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 3180,
+            "classNumber": 12562,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "W"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 4836,
+            "classNumber": 12563,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 7334,
+            "classNumber": 12564,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 7341,
+            "classNumber": 12565,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "8:20 PM",
+                "meetTimeEnd": "10:10 PM",
+                "meetPeriodBegin": "E2",
+                "meetPeriodEnd": "E3",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 7441,
+            "classNumber": 12566,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "F"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 7448,
+            "classNumber": 12567,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Digit Logic/Compu Sys",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19050000,
+            "deptName": "Electrical and Computer Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              },
+              {
+                "name": "Eric Schwartz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "FLG",
+                "meetBldgCode": "0021",
+                "meetRoom": "0270"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "F"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0248"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+			{
+        "code": "ENC1102",
+        "courseId": "012278",
+        "name": "Argument and Persuasion",
+        "termInd": " ",
+        "description": "Writing techniques and forms of argument in a range of disciplines. For their major writing assignment in this course, students will write an extensively researched and well-documented research paper, learning professional and academic writing conventions and developing their critical thinking skills. (C) (WR)",
+        "prerequisites": "Prereq: ENC 1101.",
+        "sections": [
+          {
+            "number": 2616,
+            "classNumber": 13955,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 52033000,
+            "deptName": "Flexible Learning",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jennifer Coenen"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "ENC1102",
+        "courseId": "012278",
+        "name": "Argument and Persuasion",
+        "termInd": " ",
+        "description": "Writing techniques and forms of argument in a range of disciplines. For their major writing assignment in this course, students will write an extensively researched and well-documented research paper, learning professional and academic writing conventions and developing their critical thinking skills. (C) (WR)",
+        "prerequisites": "Prereq: ENC 1101.",
+        "sections": [
+          {
+            "number": "0438",
+            "classNumber": 13919,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "04B4",
+            "classNumber": 13920,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2306
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2306
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 12:30 PM - 2:30 PM"
+          },
+          {
+            "number": "12G8",
+            "classNumber": 13949,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2328
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2328
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 1718,
+            "classNumber": 13950,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "MAT",
+                "meetBldgCode": "0406",
+                "meetRoom": "0151"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "RNK",
+                "meetBldgCode": "0272",
+                "meetRoom": "0220"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 1724,
+            "classNumber": 13951,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2353
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 3:00 PM - 5:00 PM"
+          },
+          {
+            "number": 2523,
+            "classNumber": 13954,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "WEIM",
+                "meetBldgCode": "0030",
+                "meetRoom": 1092
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          },
+          {
+            "number": 2624,
+            "classNumber": 13981,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2350
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2350
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "31B7",
+            "classNumber": 13983,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2318
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2318
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 12:30 PM - 2:30 PM"
+          },
+          {
+            "number": "31B9",
+            "classNumber": 13984,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2342
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "31CA",
+            "classNumber": 13985,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2306
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/29/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 4949,
+            "classNumber": 13986,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2353
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          },
+          {
+            "number": 6212,
+            "classNumber": 13987,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CBD",
+                "meetBldgCode": "0105",
+                "meetRoom": "0210"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CBD",
+                "meetBldgCode": "0105",
+                "meetRoom": "0210"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 6349,
+            "classNumber": 13988,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2353
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": 6362,
+            "classNumber": 14015,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Argument and Persuasion",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Composition"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": "02060000",
+            "deptName": "Writing Program",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2342
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": 2342
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "6",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 5:30 PM - 7:30 PM"
+          }
+        ]
+      },
+			{
+        "code": "CNT4007C",
+        "courseId": "020427",
+        "name": "Computer Network Fundamentals",
+        "termInd": " ",
+        "description": "Fundamental concepts, principles and standards of computer networks. Topics are introduced in bottom-up approach, starting from physical layer in OSI system architecture with a stronger focus on data link, mac, network and transport layers. (M)",
+        "prerequisites": "Prereq: COP 4600.",
+        "sections": [
+          {
+            "number": 1053,
+            "classNumber": 11387,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Compu Netwrk Fundamen",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L005"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+			{
+        "code": "STA3032",
+        "courseId": "015836",
+        "name": "Engineering Statistics",
+        "termInd": " ",
+        "description": "The basic concepts in probability and statistics with engineering applications. Topics include probability, discrete and continuous random variables, estimation, hypothesis testing, and linear and multiple regression. (M)",
+        "prerequisites": "Prereq: MAC 2311.",
+        "sections": [
+          {
+            "number": 7370,
+            "classNumber": 20430,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Engineer Statistics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Mathematics"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 16480000,
+            "deptName": "Statistics",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Demetris Athienitis"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "LIT",
+                "meetBldgCode": "0655",
+                "meetRoom": "0109"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 12:30 PM - 2:30 PM"
+          },
+          {
+            "number": 7393,
+            "classNumber": 20431,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Engineer Statistics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+              "Mathematics"
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 16480000,
+            "deptName": "Statistics",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Deborah Doss"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "LIT",
+                "meetBldgCode": "0655",
+                "meetRoom": "0101"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+			{
+        "code": "CIS4914",
+        "courseId": "010871",
+        "name": "Senior Project",
+        "termInd": " ",
+        "description": "Involves completing a significant CISE-related project. Coordinate with the instructor and a project advisor, prepare a detailed technical report and deliver an oral presentation. (M)",
+        "prerequisites": "Prereq: senior CISE standing and approved project proposal.",
+        "sections": [
+          {
+            "number": 2596,
+            "classNumber": 11345,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "SENIOR PROJECT",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Mark Schmalz"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
       }
+
+
+
+
+
+
+
+
+
+
 
 ]
