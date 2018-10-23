@@ -14,10 +14,16 @@ class Schedule extends React.Component{
       dropdownOpen: false,
       modal: false,
       className: "Tech elective",
-      numClass: this.props.numClass,
+      numClass: null,
     };
 }
-    
+componentDidUpdate(prevProps) {
+    // Typical usage (don't forget to compare props):
+    if (this.props.numClass !== prevProps.numClass) {
+      this.setState({numClass: this.props.numClass});
+    }
+  }
+  
     toggleDrop() {
         this.setState(prevState => ({
             dropdownOpen: !prevState.dropdownOpen,
@@ -36,14 +42,10 @@ class Schedule extends React.Component{
         });
       }
 
-      handleClick(){
-          this.setState({
-              numClass: this.props.numClass
-          })
-      }
-
     render(){
+        
         return(
+            <div class="column">
             <Card>
             <CardBody>
                 <CardTitle> <strong>Suggested Schedules</strong> </CardTitle>
@@ -68,7 +70,7 @@ class Schedule extends React.Component{
                             </DropdownMenu>
                             </Dropdown>
                         </th>
-                        <th onClick={this.handlClick}>{this.numClass}</th>
+                        <th>{this.props.numClass}</th>
                     </tr>
                     <tr>
                         <th>Required Class</th>
@@ -81,15 +83,13 @@ class Schedule extends React.Component{
                             <ModalFooter>
                             </ModalFooter>
                         </Modal>
-                        <th>{ data.map(function(c){
-                            return <li>{c.code}</li>;
-                        })}</th>
+                        <th>3</th>
                     </tr>
                 </tbody>
                 </Table>
             </CardBody>
             </Card>
-           
+           </div>
         )
     }
 }

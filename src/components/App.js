@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <NavBar />
         <div class="row">
-        <div class ="column"><FilterSideBar /></div>
+        <div ><FilterSideBar /></div>
         </div>
       </div>
     );
