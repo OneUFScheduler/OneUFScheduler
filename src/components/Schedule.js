@@ -22,8 +22,9 @@ class Schedule extends React.Component{
     };
 }
 componentDidUpdate(prevProps) {
-   
-  //  if(this.props.genButton !== prevProps.genButton){
+
+ // if(this.props.genButton === true){
+      
         if (this.props.numClass !== prevProps.numClass) {
             this.setState({numClass: this.props.numClass});
         }
@@ -31,6 +32,7 @@ componentDidUpdate(prevProps) {
             this.setState({timePref: this.props.timePref});
             this.detTime()
         }
+   // }
        // this.setState({genButton: this.props.genButton})
   // }
   }
@@ -46,8 +48,16 @@ componentDidUpdate(prevProps) {
         if(this.props.timePref == 'AM'){
             data.map((c) => {
                 try{
-                    if(c.sections[0].meetTimes[0].meetTimeBegin == "10:40 AM"){
-                        sTime.push(c)
+                    for(var i = 0; i < 5; i++){
+                        if(c.sections[0].meetTimes[i].meetTimeBegin === "7:25 AM" ||
+                        c.sections[0].meetTimes[i].meetTimeBegin === "8:30 AM" ||
+                        c.sections[0].meetTimes[i].meetTimeBegin === "9:35 AM" ||
+                        c.sections[0].meetTimes[i].meetTimeBegin === "10:40 AM" ||
+                        c.sections[0].meetTimes[i].meetTimeBegin === "11:45 AM" ||
+                        c.sections[0].meetTimes[i].meetTimeBegin === "12:50 PM" ||
+                        c.sections[0].meetTimes[i].meetTimeBegin === "1:55 PM"){
+                            sTime.push(c)
+                        }
                     }
                 }catch(e){
                     console.log('error', e);        
@@ -56,7 +66,25 @@ componentDidUpdate(prevProps) {
             this.setState({filteredData : sTime})
         }
         if(this.props.timePref == 'PM'){
-
+            data.map((c) => {
+                try{
+                    for(var i = 0; i < 5; i++){
+                        if(c.sections[0].meetTimes[i].meetTimeBegin !== "7:25 AM" &&
+                        c.sections[0].meetTimes[i].meetTimeBegin !== "8:30 AM" &&
+                        c.sections[0].meetTimes[i].meetTimeBegin !== "9:35 AM" &&
+                        c.sections[0].meetTimes[i].meetTimeBegin !== "10:40 AM" &&
+                        c.sections[0].meetTimes[i].meetTimeBegin !== "11:45 AM" &&
+                        c.sections[0].meetTimes[i].meetTimeBegin !== "12:50 PM" &&
+                        c.sections[0].meetTimes[i].meetTimeBegin !== "1:55 PM"){
+                            sTime.push(c)
+                            console.log( c.sections[0].meetTimes[i].meetTimeBegin)
+                        }
+                    }
+                }catch(e){
+                    console.log('error', e);        
+                }
+            })
+            this.setState({filteredData : sTime})
         }
     }
 
