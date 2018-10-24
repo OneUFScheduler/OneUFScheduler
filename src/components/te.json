@@ -1,0 +1,4637 @@
+// 20181024104023
+// https://one.uf.edu/apix/soc/schedule/?category=CWSP&class-num=&course-code=&course-title=&cred-srch=&credits=&day-f=&day-m=&day-r=&day-s=&day-t=&day-w=&days=false&dept=19140000&eep=&fitsSchedule=false&ge=&ge-b=&ge-c=&ge-d=&ge-h=&ge-m=&ge-n=&ge-p=&ge-s=&hons=false&instructor=&last-control-number=0&level-max=--&level-min=4000&no-open-seats=false&online-a=&online-c=&online-h=&online-p=&period-b=&period-e=&prog-level=+&term=2191&wr-2000=&wr-4000=&wr-6000=&writing=
+
+[
+  {
+    "COURSES": [
+      {
+        "code": "CAP4053",
+        "courseId": "025647",
+        "name": "Artificial Intelligence for Computer Games",
+        "termInd": " ",
+        "description": "Examines the use of A.I. in computer games. Topics include general A.I. knowledge, path finding, movement, tactics and planning, strategy, state machines, learning, dialogue, and emotions.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": 5819,
+            "classNumber": 11864,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Ai for Computer Games",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "NRG",
+                "meetBldgCode": "0102",
+                "meetRoom": "0205"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "NRG",
+                "meetBldgCode": "0102",
+                "meetRoom": "0205"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 5:30 PM - 7:30 PM"
+          }
+        ]
+      },
+      {
+        "code": "CAP4730",
+        "courseId": "020652",
+        "name": "Computational Structures in Computer Graphics",
+        "termInd": " ",
+        "description": "Studies the major topics in computer graphics: display and output technology, two and three dimensional manipulations; space curves and surfaces, hidden surface removal and shading models.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": 7118,
+            "classNumber": 11865,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Compu Stru Graphics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Corey Toler-Franklin"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E220"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CAP4773",
+        "courseId": "027041",
+        "name": "Projects Data Science",
+        "termInd": " ",
+        "description": "",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": "2G88",
+            "classNumber": 11866,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Zhe Wang"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "MCCA",
+                "meetBldgCode": "0495",
+                "meetRoom": 1142
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CAP5100",
+        "courseId": "025648",
+        "name": "Human-Comp Interact",
+        "termInd": " ",
+        "description": "Topics related to interaction with technology, including interface design, software tools, 3-D interaction, virtual environments, interaction devices, collaboration, and visualization.",
+        "prerequisites": "Prereq: COP 3530, and any one programming course (COP 2800, COP 3275, or COP 3229).",
+        "sections": [
+          {
+            "number": "06FF",
+            "classNumber": 11868,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eric Ragan"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E221"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 12:30 PM - 2:30 PM"
+          }
+        ]
+      },
+      {
+        "code": "CAP5108",
+        "courseId": "027301",
+        "name": "Research Mthd for Hcc",
+        "termInd": " ",
+        "description": "Introduces the fundamental methods and techniques to evaluate technologies and collect data from humans, including experimental design, types of variables, types of errors, hypothesis testing, survey design, behavioral and psychophysical methods. ",
+        "prerequisites": "Prereq: STA 3032, COT 3100, COP 3530, or equivalent.",
+        "sections": [
+          {
+            "number": "1D82",
+            "classNumber": 11869,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "RESEARCH MTHD FOR HCC",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Eakta Jain"
+              },
+              {
+                "name": "Eakta Jain"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "WEIL",
+                "meetBldgCode": "0024",
+                "meetRoom": "0279"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "WEIL",
+                "meetBldgCode": "0024",
+                "meetRoom": "0279"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "CAP6137",
+        "courseId": "027043",
+        "name": "Malware Rev Engr",
+        "termInd": " ",
+        "description": "Introducing the theory and practice of software reverse engineering applied to analysis of malicious software (malware). Students learn techniques of static and dynamic analysis to help identify the behavior of programs presented without documentation or source code and to identify possible remediation and avoidance techniques.",
+        "prerequisites": "Prereq: CDA 3101 ; Coreq: COP 5615 or consent of instructor.",
+        "sections": [
+          {
+            "number": "107A",
+            "classNumber": 11897,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Joseph Wilson"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E309"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/29/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CAP6516",
+        "courseId": "022755",
+        "name": "Medical Image Analy",
+        "termInd": " ",
+        "description": "Image formation, reconstruction mathematics (Fourier slice theorem, Abel, Hankel and Radon transforms), PDE-based denoising and segmentation, multidimensional clustering algorithms, iso-surface extraction, basic differential geometry of curves and surfaces, multidimensional splines, active 2D/3D models, image matching/registration with application to multimodal co-registration.",
+        "prerequisites": "Prereq: expertise in image proc./comp. vision, proficiency in C language or MATLAB.",
+        "sections": [
+          {
+            "number": "34ED",
+            "classNumber": 11898,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Medical Image Analy",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Alireza Entezari"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "FAB",
+                "meetBldgCode": "0598",
+                "meetRoom": "0105"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CAP6610",
+        "courseId": "019140",
+        "name": "Machine Learning",
+        "termInd": " ",
+        "description": "Concepts in developing computer programs that learn and improve with experience. Emphasis on methods based on probability, statistics, and optimization.",
+        "prerequisites": "Prereq: Mathematics for Intelligent Systems.",
+        "sections": [
+          {
+            "number": "0418",
+            "classNumber": 11899,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Anand Rangarajan"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0201"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/29/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "0670",
+            "classNumber": 11901,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Anand Rangarajan"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "1G02",
+            "classNumber": 11903,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Anand Rangarajan"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CAP6769",
+        "courseId": "027044",
+        "name": "Advanced Data Science",
+        "termInd": " ",
+        "description": "Advanced topics in data science such as relational databases and parallel and distributed processing in the cloud, tree-based classifiers and support vector machines, dimensionality reduction and theories of visualization.",
+        "prerequisites": "Prereq: Graduate standing, CAP 5771 ",
+        "sections": [
+          {
+            "number": "4C05",
+            "classNumber": 22220,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Zhe Wang"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "MCCA",
+                "meetBldgCode": "0495",
+                "meetRoom": 1142
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CDA4630",
+        "courseId": "027045",
+        "name": "Embedded Systems",
+        "termInd": " ",
+        "description": "",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": "01BA",
+            "classNumber": 11586,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Embedded Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Prabhat Mishra"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0201"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CDA5636",
+        "courseId": "025649",
+        "name": "Embedded Systems",
+        "termInd": " ",
+        "description": "Design and verification of embedded systems including system level modeling/specification, design space exploration, hardware-software partitioning, architecture synthesis, compilation for area/power/performance code compression, real-time operating systems/databases, and functional validation of embedded systems.",
+        "prerequisites": "Prereq: CDA 3101, COP 3530, and any one programming course (CGS 2414, CGS 3460, or CGS 3464).",
+        "sections": [
+          {
+            "number": "01AB",
+            "classNumber": 11588,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Prabhat Mishra"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0201"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "01AH",
+            "classNumber": 11590,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Prabhat Mishra"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "0710",
+            "classNumber": 11591,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Prabhat Mishra"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CEN4721",
+        "courseId": "026617",
+        "name": "Human-Computer Interaction",
+        "termInd": " ",
+        "description": "Studies the major topics in the study, planning and design of the interaction between people and computers. Topics include interface design (principles, theories and guidelines), virtual environments, interactive devices and collaboration.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": "1H09",
+            "classNumber": 11696,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Human-Comp Interact",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jaime Ruiz"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E221"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CEN4722",
+        "courseId": "027401",
+        "name": "User Experience Design",
+        "termInd": " ",
+        "description": "Introduces methods and tools used in User Experience Design (UXD): the early stages of software design focused on meeting user needs. Key concepts include user research, contextual design, design thinking, ideation, iterative design, prototyping, and design documentation. Projects utilize software tools used in the industry.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": "324D",
+            "classNumber": 11697,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Ux Design",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Sharon Chuyew Yee"
+              },
+              {
+                "name": "Sharon Chuyew Yee"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "MCCA",
+                "meetBldgCode": "0495",
+                "meetRoom": 1142
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "MCCA",
+                "meetBldgCode": "0495",
+                "meetRoom": 1142
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CEN4914",
+        "courseId": "025015",
+        "name": "Computer and Information Science and Engineering Design 2",
+        "termInd": " ",
+        "description": "Involves completing a significant CEN-related project. Coordinate with the instructor and a project advisor, prepare a detailed technical report and deliver an oral presentation.",
+        "prerequisites": "Prereq: CEN 3913.",
+        "sections": [
+          {
+            "number": 6750,
+            "classNumber": 11698,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Mark Schmalz"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CEN6070",
+        "courseId": "021017",
+        "name": "Software Test/Verifi",
+        "termInd": " ",
+        "description": "Concepts, principles, and methods for software testing and verification. Topics include human and machine-based testing strategies, formal proofs of correctness, and software reliability.",
+        "prerequisites": "Prereq: CEN 5035.",
+        "sections": [
+          {
+            "number": "1F45",
+            "classNumber": 11700,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Stephen Thebaut"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "9:20 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "2",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E121"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CIS4301",
+        "courseId": "010869",
+        "name": "Information and Database Systems 1",
+        "termInd": " ",
+        "description": "First part of a two-course sequence that studies the essential concepts, principles and techniques of modern database systems. Topics include modeling and querying of data using conceptual data models as well as the development of a database application. (M)",
+        "prerequisites": "Credits: 3; Prereq: COP 3504, or COP 3503 and COT 3100.",
+        "sections": [
+          {
+            "number": "0804",
+            "classNumber": 11313,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Peter Dobbins"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "A101"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          },
+          {
+            "number": 7776,
+            "classNumber": 11315,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Info and Database Sys 1",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Peter Dobbins"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "A101"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CIS4905",
+        "courseId": "021334",
+        "name": "Individual Study in CISE",
+        "termInd": " ",
+        "description": "Problems in different areas of computer science.",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": 9373,
+            "classNumber": 11342,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "INDIVIDUAL STUDY",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "4C23",
+            "classNumber": 22233,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "SPEC PROB IN CIS",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS4913C",
+        "courseId": "022623",
+        "name": "Integrated Product and Process Design 2",
+        "termInd": " ",
+        "description": "Second part of a sequence where teams of engineering and business students partner with industry sponsors to design and build authentic products and processes.",
+        "prerequisites": "Prereq: CIS 4912C.",
+        "sections": [
+          {
+            "number": 5026,
+            "classNumber": 11343,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Rodney Guico"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "6:00 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "10",
+                "meetBuilding": "PUGH",
+                "meetBldgCode": "0072",
+                "meetRoom": 170
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "CIS4914",
+        "courseId": "010871",
+        "name": "Senior Project",
+        "termInd": " ",
+        "description": "Involves completing a significant CISE-related project. Coordinate with the instructor and a project advisor, prepare a detailed technical report and deliver an oral presentation. (M)",
+        "prerequisites": "Prereq: senior CISE standing and approved project proposal.",
+        "sections": [
+          {
+            "number": 2596,
+            "classNumber": 11345,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "SENIOR PROJECT",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Mark Schmalz"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS4930",
+        "courseId": "016253",
+        "name": "Special Topics in CISE",
+        "termInd": " ",
+        "description": "Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.",
+        "prerequisites": "Prereq: departmental approval.",
+        "sections": [
+          {
+            "number": "03A9",
+            "classNumber": 11346,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "MALWARE REV ENGR",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Joseph Wilson"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E309"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/29/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "05AG",
+            "classNumber": 11347,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "HUM-CTRD INPUT ALG",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Lisa Anthony"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "5:10 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "10",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E220"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/3/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "07EF",
+            "classNumber": 11348,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "VR FOR SOCIAL GOOD",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Benjamin Lok"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "NPB",
+                "meetBldgCode": "0092",
+                "meetRoom": 1001
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "343D",
+            "classNumber": 11350,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "SOFTWARE SECURITY",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Byron Williams"
+              },
+              {
+                "name": "Byron Williams"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E119"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E119"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "349C",
+            "classNumber": 11376,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "3D AUDIO",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Kyla Mcmullen"
+              },
+              {
+                "name": "Kyla Mcmullen"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E221"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E221"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "3C90",
+            "classNumber": 11378,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "COMPUTER VISION",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Baba Vemuri"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "39GE",
+            "classNumber": 21720,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "MOBILE NETWORKING",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              },
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L005"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L005"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "CIS4940",
+        "courseId": "017073",
+        "name": "Practical Work",
+        "termInd": " ",
+        "description": "One term practical software engineering work under industrial supervision as set forth in the Herbert Wertheim College of Engineering regulations. (S-U)",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": "05EA",
+            "classNumber": 11382,
+            "gradBasis": "SUS",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 1,
+            "credits_min": 1,
+            "credits_max": 1,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS4949",
+        "courseId": "010873",
+        "name": "Co-Op Work in CISE",
+        "termInd": " ",
+        "description": "Practical engineering work under industrial supervision, as set forth in the Herbert Wertheim College of Engineering regulations. (S-U)",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": 2513,
+            "classNumber": 11383,
+            "gradBasis": "SUS",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 1,
+            "credits_min": 1,
+            "credits_max": 1,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS5370",
+        "courseId": "027050",
+        "name": "Comp and Info Sec",
+        "termInd": " ",
+        "description": "Covers systematic threat and risk assessment; programmed threats and controls in hardware, software, and human procedures; security policies, models, and mechanisms; theoretical limitations and practical implementations; certification and accreditation standards; and case study reviews. Coursework includes a significant term project. ",
+        "prerequisites": "Prereq: COP 4600 Operating Systems or equivalent",
+        "sections": [
+          {
+            "number": "06A9",
+            "classNumber": 11384,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Kevin Butler"
+              },
+              {
+                "name": "Kevin Butler"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CIS5371",
+        "courseId": "027142",
+        "name": "Intro to Cryptology",
+        "termInd": " ",
+        "description": "Introducing classical and modern cryptography and cryptanalysis, including symmetric and asymmetric (public key) ciphers. It covers cryptographic hash functions, block and stream ciphers, as well as differential and linear cryptanalysis. It reviews BAN logic, applications of cryptography, cryptographic standards and protocols, and analyzes case studies of failed implementations.",
+        "prerequisites": "Prereq: COT 3100 Applications of Discrete Structures or equivalent ; Coreq:  COT 5405 Analysis of Algorithms or equivalent",
+        "sections": [
+          {
+            "number": "1H74",
+            "classNumber": 11413,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Thomas Shrimpton"
+              },
+              {
+                "name": "Thomas Shrimpton"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "CIS6905",
+        "courseId": "017074",
+        "name": "Individual Study",
+        "termInd": " ",
+        "description": "",
+        "prerequisites": "Prereq: consent of faculty member supervising the study.",
+        "sections": [
+          {
+            "number": 9371,
+            "classNumber": 11414,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "INDIVIDUAL STUDY",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS6930",
+        "courseId": "016806",
+        "name": "Special Topics",
+        "termInd": " ",
+        "description": "",
+        "prerequisites": "Prereq: vary depending on topics.",
+        "sections": [
+          {
+            "number": "041G",
+            "classNumber": 11416,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "VR FOR SOCIAL GOOD",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Benjamin Lok"
+              },
+              {
+                "name": "Benjamin Lok"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L007"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L007"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "1D26",
+            "classNumber": 11446,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "SOFTWARE SECURITY",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Byron Williams"
+              },
+              {
+                "name": "Byron Williams"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E119"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E119"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+          },
+          {
+            "number": "1G46",
+            "classNumber": 11448,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "3D AUDIO",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Kyla Mcmullen"
+              },
+              {
+                "name": "Kyla Mcmullen"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E221"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E221"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 2830,
+            "classNumber": 11449,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Special Topics",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "MOBILE NETWORKING",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              },
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L005"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L005"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": "4E41",
+            "classNumber": 22386,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "HUM-CTRD INPUT ALG",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Lisa Anthony"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "5:10 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "10",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E220"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/3/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "CIS6935",
+        "courseId": "016685",
+        "name": "Graduate Seminar",
+        "termInd": " ",
+        "description": "Presentations by visiting researchers, faculty members, and graduate students.",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": 8885,
+            "classNumber": 11453,
+            "gradBasis": "SUS",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 1,
+            "credits_min": 1,
+            "credits_max": 1,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS6971",
+        "courseId": "016686",
+        "name": "Masters Research",
+        "termInd": " ",
+        "description": "",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": 9368,
+            "classNumber": 11481,
+            "gradBasis": "SUS",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 15,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS7979",
+        "courseId": "018749",
+        "name": "Advanced Research",
+        "termInd": " ",
+        "description": "Research for doctoral students before admission to candidacy. Designed for students with a master's degree in the field of study or for students who have been accepted for a doctoral program. Not appropriate for students who have been admitted to candidacy.",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": 9367,
+            "classNumber": 11482,
+            "gradBasis": "SUS",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 12,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CIS7980",
+        "courseId": "018320",
+        "name": "Doctoral Research",
+        "termInd": " ",
+        "description": "",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": 9366,
+            "classNumber": 11483,
+            "gradBasis": "SUS",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 15,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "CNT4007C",
+        "courseId": "020427",
+        "name": "Computer Network Fundamentals",
+        "termInd": " ",
+        "description": "Fundamental concepts, principles and standards of computer networks. Topics are introduced in bottom-up approach, starting from physical layer in OSI system architecture with a stronger focus on data link, mac, network and transport layers. (M)",
+        "prerequisites": "Prereq: COP 4600.",
+        "sections": [
+          {
+            "number": 1053,
+            "classNumber": 11387,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Compu Netwrk Fundamen",
+            "credits": 4,
+            "credits_min": 4,
+            "credits_max": 4,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "TUR",
+                "meetBldgCode": "0267",
+                "meetRoom": "L005"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "CNT5106C",
+        "courseId": "024436",
+        "name": "Computer Networks",
+        "termInd": " ",
+        "description": "Design, implementation, and internals of networks. Routing, congestion control, internetworking, TCP/IP, optimization, and proxy services.",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": "0439",
+            "classNumber": 11388,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Computer Networks",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ye Xia"
+              },
+              {
+                "name": "Ye Xia"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0201"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0201"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 12:30 PM - 2:30 PM"
+          },
+          {
+            "number": "11BC",
+            "classNumber": 11390,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ye Xia"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "211C",
+            "classNumber": 11391,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ye Xia"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "COP4020",
+        "courseId": "020917",
+        "name": "Programming Language Concepts",
+        "termInd": " ",
+        "description": "Introduces programming language principles, including language constructs, design goals, run-time structures, implementation techniques and exposure to a wide variety of programming paradigms.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": 6620,
+            "classNumber": 11227,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Program Lang Concepts",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Alin Dobra"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E121"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/29/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "COP4331",
+        "courseId": "021518",
+        "name": "Object-oriented Programming",
+        "termInd": " ",
+        "description": "Fundamental conceptual models for programming languages illustrated with specific programming languages and application problems. Specific topics include class and object models, inheritance among classes, objects and static and dynamic systems and implementations.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": 7276,
+            "classNumber": 11228,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Philippa Brown"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "PUGH",
+                "meetBldgCode": "0072",
+                "meetRoom": 120
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 3:00 PM - 5:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "COP4600",
+        "courseId": "016428",
+        "name": "Operating Systems",
+        "termInd": " ",
+        "description": "Design and implementation of various components of a modern operating system, including I/O programming, interrupt handling, process and resource management, computer networks and distributed systems. (M)",
+        "prerequisites": "Prereq: CDA 3101 and COP 3530; knowledge of C or C++ recommended.",
+        "sections": [
+          {
+            "number": "193A",
+            "classNumber": 11153,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": "193B",
+            "classNumber": 11154,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": "193F",
+            "classNumber": 11155,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "12:50 PM",
+                "meetTimeEnd": "1:40 PM",
+                "meetPeriodBegin": "6",
+                "meetPeriodEnd": "6",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": "193G",
+            "classNumber": 11156,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E121"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          },
+          {
+            "number": 5831,
+            "classNumber": 11159,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Operating Systems",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              },
+              {
+                "name": "Jeremiah Blanchard"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "6:15 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "11",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "7:20 PM",
+                "meetTimeEnd": "8:10 PM",
+                "meetPeriodBegin": "E1",
+                "meetPeriodEnd": "E1",
+                "meetBuilding": "CAR",
+                "meetBldgCode": "0022",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 3,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "3:50 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "8",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E121"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 8:00 PM - 10:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "COP5536",
+        "courseId": "020873",
+        "name": "Adv Data Structures",
+        "termInd": " ",
+        "description": "Development of efficient data structures used to obtain more efficient solutions to classical problems, such as those based on graph theoretical models, as well as problems that arise in application areas of contemporary interest.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": "1H68",
+            "classNumber": 11259,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Adv Data Structures",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Sartaj Sahni"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "1:55 PM",
+                "meetTimeEnd": "2:45 PM",
+                "meetPeriodBegin": "7",
+                "meetPeriodEnd": "7",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0100"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 3:00 PM - 5:00 PM"
+          },
+          {
+            "number": "4C19",
+            "classNumber": 22235,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "4C20",
+            "classNumber": 22236,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "COP5618",
+        "courseId": "023627",
+        "name": "Concurrent Program",
+        "termInd": " ",
+        "description": "Overview of principles and programming techniques. Reasoning about concurrency, synchronization, program structuring, multi-threaded server applications.",
+        "prerequisites": "Prereq: COP 3100, 3530.",
+        "sections": [
+          {
+            "number": "34E4",
+            "classNumber": 11260,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Concurrent Program",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Beverly Sanders"
+              },
+              {
+                "name": "Beverly Sanders"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "A101"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "A101"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "COP5725",
+        "courseId": "016684",
+        "name": "Data Base Manage Sys",
+        "termInd": " ",
+        "description": "Introduction to systems and procedures for managing large computerized databases.",
+        "prerequisites": "Prereq: COP 3530, 4600, or equivalent.",
+        "sections": [
+          {
+            "number": "027G",
+            "classNumber": 11262,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Markus Schneider"
+              },
+              {
+                "name": "Markus Schneider"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0100"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 12:30 PM - 2:30 PM"
+          },
+          {
+            "number": "104A",
+            "classNumber": 11264,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Markus Schneider"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "11BH",
+            "classNumber": 12914,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Markus Schneider"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "COP6726",
+        "courseId": "022772",
+        "name": "Database Sys Implemen",
+        "termInd": " ",
+        "description": "DBMS architecture, query processing and optimization, transaction processing, index structures, parallel query processing, object-oriented and object-relational databases, and related topics.",
+        "prerequisites": "Prereq: COP 4600 and 4720 or COP 5725.",
+        "sections": [
+          {
+            "number": "06BF",
+            "classNumber": 12916,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Database Sys Implemen",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Alin Dobra"
+              },
+              {
+                "name": "Alin Dobra"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FAB",
+                "meetBldgCode": "0598",
+                "meetRoom": "0105"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "FAB",
+                "meetBldgCode": "0598",
+                "meetRoom": "0105"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "COT4501",
+        "courseId": "021137",
+        "name": "Numerical Analysis: a Computational Approach",
+        "termInd": " ",
+        "description": "Numerical integration, nonlinear equations, linear and nonlinear systems of equations, differential equations and interpolation.",
+        "prerequisites": "Prereq: COP 3504 or COP 3503 and MAS 3114.",
+        "sections": [
+          {
+            "number": 1090,
+            "classNumber": 12955,
+            "gradBasis": "GRD",
+            "acadCareer": "UGRD",
+            "display": "Num Analys Computa",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Anand Rangarajan"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "10:40 AM",
+                "meetTimeEnd": "11:30 AM",
+                "meetPeriodBegin": "4",
+                "meetPeriodEnd": "4",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E119"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "COT5405",
+        "courseId": "017533",
+        "name": "Analys of Algorithms",
+        "termInd": " ",
+        "description": "Introduction and illustration of basic techniques for designing efficient algorithms and analyzing algorithm complexity.",
+        "prerequisites": "Prereq: COP 3530.",
+        "sections": [
+          {
+            "number": "047B",
+            "classNumber": 12984,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Christina Boucher"
+              },
+              {
+                "name": "Christina Boucher"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "8:30 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "2",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0100"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "9:35 AM",
+                "meetTimeEnd": "10:25 AM",
+                "meetPeriodBegin": "3",
+                "meetPeriodEnd": "3",
+                "meetBuilding": "NEB",
+                "meetBldgCode": "0033",
+                "meetRoom": "0100"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+          },
+          {
+            "number": 1091,
+            "classNumber": 12986,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Christina Boucher"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          },
+          {
+            "number": "11CB",
+            "classNumber": 12987,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "AD",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Christina Boucher"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "COT5442",
+        "courseId": "025652",
+        "name": "Approx Algorithms",
+        "termInd": " ",
+        "description": "Fundamentals of algorithmic paradigms, analysis, techniques, and software. Topics include greedy methods, randomized algorithms, lP-rounding, approximability, covering, packing, clustering, and network problems.",
+        "prerequisites": "Prereq: COP 3530 or COT 5405 ",
+        "sections": [
+          {
+            "number": 3486,
+            "classNumber": 12989,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Approx Algorithms",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "My Thai"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "M",
+                  "W",
+                  "F"
+                ],
+                "meetTimeBegin": "11:45 AM",
+                "meetTimeEnd": "12:35 PM",
+                "meetPeriodBegin": "5",
+                "meetPeriodEnd": "5",
+                "meetBuilding": "WM",
+                "meetBldgCode": "0100",
+                "meetRoom": "0100"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "4/30/2019 @ 10:00 AM - 12:00 PM"
+          }
+        ]
+      },
+      {
+        "code": "COT5615",
+        "courseId": "025653",
+        "name": "Math Intelligent Sys",
+        "termInd": " ",
+        "description": "Mathematical methods commonly used to develop algorithms for computer systems that exhibit intelligent behavior.",
+        "prerequisites": "Prereq: MAC 2313, Multivariate Calculus; MAS 3114 or MAS 4105, Linear Algebra; STA 4321, Mathematical Statistics.",
+        "sections": [
+          {
+            "number": "349B",
+            "classNumber": 12990,
+            "gradBasis": "GRD",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": 3,
+            "credits_min": 3,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Arunava Banerjee"
+              },
+              {
+                "name": "Arunava Banerjee"
+              }
+            ],
+            "meetTimes": [
+              {
+                "meetNo": 1,
+                "meetDays": [
+                  "T"
+                ],
+                "meetTimeBegin": "3:00 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "8",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              },
+              {
+                "meetNo": 2,
+                "meetDays": [
+                  "R"
+                ],
+                "meetTimeBegin": "4:05 PM",
+                "meetTimeEnd": "4:55 PM",
+                "meetPeriodBegin": "9",
+                "meetPeriodEnd": "9",
+                "meetBuilding": "CSE",
+                "meetBldgCode": "0042",
+                "meetRoom": "E222"
+              }
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+          }
+        ]
+      },
+      {
+        "code": "EGN4912",
+        "courseId": "026625",
+        "name": "Engineering Directed Independent Research",
+        "termInd": " ",
+        "description": "Provides firsthand, supervised research with a faculty advisor or postdoctoral or graduate student mentor. Projects may involve inquiry, design, investigation, scholarship, discovery or application. (S-U)",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": "182G",
+            "classNumber": 14162,
+            "gradBasis": "SUS",
+            "acadCareer": "UGRD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 0,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "ENGINEERING RESEARCH",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Richard Newman"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "EGN5949",
+        "courseId": "022923",
+        "name": "Prac/Intern/Coop Work",
+        "termInd": " ",
+        "description": "Practical cooperative engineering work under approved industrial and faculty supervision.",
+        "prerequisites": "Prereq: graduate student.",
+        "sections": [
+          {
+            "number": 4067,
+            "classNumber": 14200,
+            "gradBasis": "SUS",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 1,
+            "credits_max": 6,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "N",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+        "code": "EGN6913",
+        "courseId": "027610",
+        "name": "Engineering Grad Rsch",
+        "termInd": " ",
+        "description": "Course will provide the student with supervised research in a laboratory setting.",
+        "prerequisites": "",
+        "sections": [
+          {
+            "number": "26EA",
+            "classNumber": 14270,
+            "gradBasis": "SUS",
+            "acadCareer": "GRAD",
+            "display": "Departmentally Controlled",
+            "credits": "VAR",
+            "credits_min": 0,
+            "credits_max": 3,
+            "note": "",
+            "dNote": "",
+            "genEd": [
+
+            ],
+            "sectWeb": "PC",
+            "rotateTitle": "ENGINEERING GRAD RSCH",
+            "deptCode": 19140000,
+            "deptName": "Computer & Information Science & Engineering",
+            "courseFee": 0,
+            "lateFlag": "N",
+            "EEP": "Y",
+            "LMS": "",
+            "instructors": [
+              {
+                "name": "Ahmed Helmy"
+              }
+            ],
+            "meetTimes": [
+
+            ],
+            "addEligible": "Y",
+            "grWriting": "N",
+            "dropaddDeadline": "01/11/2019",
+            "pastDeadline": false,
+            "finalExam": ""
+          }
+        ]
+      },
+      {
+     "code": "CIS4930",
+     "courseId": "016253",
+     "name": "Special Topics in CISE",
+     "termInd": " ",
+     "description": "Variable content provides an opportunity for in-depth study of topics not offered elsewhere and of topics of current significance.",
+     "prerequisites": "Prereq: departmental approval.",
+     "sections": [
+       {
+         "number": "03A9",
+         "classNumber": 11346,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "MALWARE REV ENGR",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "Y",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Joseph Wilson"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "M",
+               "W",
+               "F"
+             ],
+             "meetTimeBegin": "12:50 PM",
+             "meetTimeEnd": "1:40 PM",
+             "meetPeriodBegin": "6",
+             "meetPeriodEnd": "6",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E309"
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "4/29/2019 @ 10:00 AM - 12:00 PM"
+       },
+       {
+         "number": "05AG",
+         "classNumber": 11347,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "HUM-CTRD INPUT ALG",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "Y",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Lisa Anthony"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "R"
+             ],
+             "meetTimeBegin": "5:10 PM",
+             "meetTimeEnd": "8:10 PM",
+             "meetPeriodBegin": "10",
+             "meetPeriodEnd": "E1",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E220"
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "5/3/2019 @ 7:30 AM - 9:30 AM"
+       },
+       {
+         "number": "07EF",
+         "classNumber": 11348,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "VR FOR SOCIAL GOOD",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "Y",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Benjamin Lok"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "T"
+             ],
+             "meetTimeBegin": "1:55 PM",
+             "meetTimeEnd": "4:55 PM",
+             "meetPeriodBegin": "7",
+             "meetPeriodEnd": "9",
+             "meetBuilding": "NPB",
+             "meetBldgCode": "0092",
+             "meetRoom": 1001
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+       },
+       {
+         "number": "343D",
+         "classNumber": 11350,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "SOFTWARE SECURITY",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "Y",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Byron Williams"
+           },
+           {
+             "name": "Byron Williams"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "T"
+             ],
+             "meetTimeBegin": "1:55 PM",
+             "meetTimeEnd": "2:45 PM",
+             "meetPeriodBegin": "7",
+             "meetPeriodEnd": "7",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E119"
+           },
+           {
+             "meetNo": 2,
+             "meetDays": [
+               "R"
+             ],
+             "meetTimeBegin": "1:55 PM",
+             "meetTimeEnd": "3:50 PM",
+             "meetPeriodBegin": "7",
+             "meetPeriodEnd": "8",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E119"
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "5/1/2019 @ 10:00 AM - 12:00 PM"
+       },
+       {
+         "number": "349C",
+         "classNumber": 11376,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "3D AUDIO",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "Y",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Kyla Mcmullen"
+           },
+           {
+             "name": "Kyla Mcmullen"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "T"
+             ],
+             "meetTimeBegin": "3:00 PM",
+             "meetTimeEnd": "4:55 PM",
+             "meetPeriodBegin": "8",
+             "meetPeriodEnd": "9",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E221"
+           },
+           {
+             "meetNo": 2,
+             "meetDays": [
+               "R"
+             ],
+             "meetTimeBegin": "4:05 PM",
+             "meetTimeEnd": "4:55 PM",
+             "meetPeriodBegin": "9",
+             "meetPeriodEnd": "9",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E221"
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "5/1/2019 @ 7:30 AM - 9:30 AM"
+       },
+       {
+         "number": "3C90",
+         "classNumber": 11378,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "COMPUTER VISION",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "Y",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Baba Vemuri"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "M",
+               "W",
+               "F"
+             ],
+             "meetTimeBegin": "11:45 AM",
+             "meetTimeEnd": "12:35 PM",
+             "meetPeriodBegin": "5",
+             "meetPeriodEnd": "5",
+             "meetBuilding": "CSE",
+             "meetBldgCode": "0042",
+             "meetRoom": "E222"
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "4/30/2019 @ 10:00 AM - 12:00 PM"
+       },
+       {
+         "number": "39GE",
+         "classNumber": 21720,
+         "gradBasis": "GRD",
+         "acadCareer": "UGRD",
+         "display": "Special Topics",
+         "credits": 3,
+         "credits_min": 3,
+         "credits_max": 3,
+         "note": "",
+         "dNote": "",
+         "genEd": [
+
+         ],
+         "sectWeb": "PC",
+         "rotateTitle": "MOBILE NETWORKING",
+         "deptCode": 19140000,
+         "deptName": "Computer & Information Science & Engineering",
+         "courseFee": 0,
+         "lateFlag": "N",
+         "EEP": "N",
+         "LMS": "",
+         "instructors": [
+           {
+             "name": "Ahmed Helmy"
+           },
+           {
+             "name": "Ahmed Helmy"
+           }
+         ],
+         "meetTimes": [
+           {
+             "meetNo": 1,
+             "meetDays": [
+               "T"
+             ],
+             "meetTimeBegin": "8:30 AM",
+             "meetTimeEnd": "10:25 AM",
+             "meetPeriodBegin": "2",
+             "meetPeriodEnd": "3",
+             "meetBuilding": "TUR",
+             "meetBldgCode": "0267",
+             "meetRoom": "L005"
+           },
+           {
+             "meetNo": 2,
+             "meetDays": [
+               "R"
+             ],
+             "meetTimeBegin": "9:35 AM",
+             "meetTimeEnd": "10:25 AM",
+             "meetPeriodBegin": "3",
+             "meetPeriodEnd": "3",
+             "meetBuilding": "TUR",
+             "meetBldgCode": "0267",
+             "meetRoom": "L005"
+           }
+         ],
+         "addEligible": "Y",
+         "grWriting": "N",
+         "dropaddDeadline": "01/11/2019",
+         "pastDeadline": false,
+         "finalExam": "5/2/2019 @ 7:30 AM - 9:30 AM"
+       }
+     ]
+   },
+   {
+       "code": "EIN4354",
+       "courseId": "012045",
+       "name": "Engineering Economy",
+       "termInd": " ",
+       "description": "Basic principles and applications of economic decision-making between alternatives encountered in engineering systems projects. Analysis includes methodologies of economics and finance in addition to engineering fundamentals.",
+       "prerequisites": "Prereq: MAC 2312 with a minimum grade of C.",
+       "sections": [
+         {
+           "number": 2605,
+           "classNumber": 13899,
+           "gradBasis": "GRD",
+           "acadCareer": "UGRD",
+           "display": "Departmentally Controlled",
+           "credits": 3,
+           "credits_min": 3,
+           "credits_max": 3,
+           "note": "",
+           "dNote": "",
+           "genEd": [
+
+           ],
+           "sectWeb": "PD",
+           "rotateTitle": "",
+           "deptCode": 19060000,
+           "deptName": "Industrial and Systems Engineering",
+           "courseFee": 0,
+           "lateFlag": "N",
+           "EEP": "Y",
+           "LMS": "",
+           "instructors": [
+             {
+               "name": "Stanislav Uryasev"
+             }
+           ],
+           "meetTimes": [
+
+           ],
+           "addEligible": "Y",
+           "grWriting": "N",
+           "dropaddDeadline": "01/11/2019",
+           "pastDeadline": false,
+           "finalExam": ""
+         }
+       ]
+     }
+
+
+    ]
