@@ -3,6 +3,7 @@ import {Card, CardBody, CardTitle, Table} from 'reactstrap';
 import {UncontrolledDropdown, Button, Modal, ModalHeader, ModalBody, ModalFooter, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 import data from './data.json';
+import techE from './te.json';
 
 class Schedule extends React.Component{
     constructor(props) {
@@ -17,13 +18,17 @@ class Schedule extends React.Component{
      // Jdata: this.props.data,
       timePref: null,
       filteredData: data,
+      filteredElect: techE,
       genButton: this.props.genButton,
-
+      allData: [],
+      numElect: null,
+      specificClass: null,
+      foundClass: null,
     };
 }
 componentDidUpdate(prevProps) {
 
- // if(this.props.genButton === true){
+ // if(this.props.genButton === true)
       
         if (this.props.numClass !== prevProps.numClass) {
             this.setState({numClass: this.props.numClass});
@@ -31,6 +36,13 @@ componentDidUpdate(prevProps) {
         if (this.props.timePref !== prevProps.timePref) {
             this.setState({timePref: this.props.timePref});
             this.detTime()
+        }
+        if (this.props.numElect !== prevProps.numElect) {
+            this.setState({numElect: this.props.numElect});
+        }
+        if(this.props.specificClass !== prevProps.specificClass) {
+            this.setState({specificClass: this.props.specificClass})
+            this.findClass();
         }
    // }
        // this.setState({genButton: this.props.genButton})
@@ -43,10 +55,24 @@ componentDidUpdate(prevProps) {
         }));
     }
 
+    //this is correctly saving the desired class info, but cant get it show up 
+    findClass(){
+        data.map((c) => {
+            if(c.code === this.props.specificClass){
+                this.setState({foundClass: c})
+            }
+        })
+        techE.map((c)=>{
+            if(c.code === this.props.specificClass){
+                this.setState({foundClass: c})
+            }
+        })
+    }
+
     detTime(){
         var sTime = []
         if(this.props.timePref == 'AM'){
-            data.map((c) => {
+            techE.map((c) => {
                 try{
                     for(var i = 0; i < 5; i++){
                         if(c.sections[0].meetTimes[i].meetTimeBegin === "7:25 AM" ||
@@ -63,10 +89,10 @@ componentDidUpdate(prevProps) {
                     console.log('error', e);        
                 }
             })
-            this.setState({filteredData : sTime})
+            this.setState({filteredElect : sTime})
         }
         if(this.props.timePref == 'PM'){
-            data.map((c) => {
+            techE.map((c) => {
                 try{
                     for(var i = 0; i < 5; i++){
                         if(c.sections[0].meetTimes[i].meetTimeBegin !== "7:25 AM" &&
@@ -84,12 +110,54 @@ componentDidUpdate(prevProps) {
                     console.log('error', e);        
                 }
             })
-            this.setState({filteredData : sTime})
+            this.setState({filteredElect : sTime})
         }
     }
 
+    checkSpecific(){
+        if(this.state.foundClass !== null){
+            this.state.foundClass.map((c) => {
+                return (
+                    <tr>
+                        <td>{c.code}</td>
+                        <td><UncontrolledDropdown>>
+                            <DropdownToggle caret>
+                                {c.name}
+                            </DropdownToggle>
+                            <DropdownMenu>
+                                <DropdownItem onClick={this.state.select}>Some other Class Name @ MWF</DropdownItem>
+                                <DropdownItem onClick={this.state.select}>Another Class @ some time</DropdownItem>
+                            </DropdownMenu>
+                            </UncontrolledDropdown>
+                        </td>
+                        <td>{c.sections[0].credits}</td>
+                    </tr>
+                )
+            })
+        }
+        else return ''
+    }
+
+    makeDropDown(){
+        this.state.filteredElect.map((c) =>{
+            return(
+            <UncontrolledDropdown>>
+                <DropdownToggle caret>
+                {c.code + c.name}
+                </DropdownToggle>
+                <DropdownMenu>
+                    <DropdownItem onClick={this.state.select}>{c.code +c.name}</DropdownItem>
+                </DropdownMenu>
+            </UncontrolledDropdown>
+            )
+        })
+    }
+
     render(){
-    
+        let optionItems = this.state.filteredElect.map((c) =>
+                <option key={c.code}>{c.code + " " + c.name}</option>
+            );
+
         return(
             <div class="column">
             <Card>
@@ -104,7 +172,24 @@ componentDidUpdate(prevProps) {
                     </tr>
                 </thead>
                 <tbody>
-                    {this.state.filteredData.slice(0,this.props.numClass).map((c) =>
+                {this.checkSpecific}
+                {this.state.filteredElect.slice(0,this.props.numElect).map((c) =>
+                    <tr>
+                        <td>{c.code}</td>
+                        <td>
+                        <UncontrolledDropdown>>
+                            <DropdownToggle caret>
+                            {c.name}
+                            </DropdownToggle>
+                            <DropdownMenu>
+                                <DropdownItem onClick={this.state.select}>{optionItems}</DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                        </td>
+                        <td>{c.sections[0].credits}</td>
+                    </tr>
+                    )}
+                    {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
                     <tr>
                         <td>{c.code}</td>
                         <td><UncontrolledDropdown>>

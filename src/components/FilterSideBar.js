@@ -147,7 +147,7 @@ toggle(event) {
             </CardBody>
             </Card>
             <div class="column">
-            <Schedule genButton={this.state.genButton} numClass={this.state.dropNum} timePref={this.state.dropTime}> </Schedule>
+            <Schedule genButton={this.state.genButton} numElect={this.state.dropElective} numClass={this.state.dropNum} timePref={this.state.dropTime} specificClass={this.state.search}> </Schedule>
             </div>
             </div>
         )
