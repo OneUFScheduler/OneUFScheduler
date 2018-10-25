@@ -17,7 +17,7 @@ class Schedule extends React.Component{
       numClass: this.props.numClass,
     };
 }
-    
+
     toggleDrop() {
         this.setState(prevState => ({
             dropdownOpen: !prevState.dropdownOpen,
@@ -89,7 +89,7 @@ class Schedule extends React.Component{
                 </Table>
             </CardBody>
             </Card>
-           
+
         )
     }
 }
