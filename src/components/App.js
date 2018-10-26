@@ -3,15 +3,14 @@ import '../styles/App.css';
 import Schedule from './Schedule';
 import FilterSideBar from './FilterSideBar';
 import NavBar from './NavBar';
+import { Container, Row, Col } from 'reactstrap';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <div class="row">
-        <div ><FilterSideBar /></div>
-        </div>
+          <NavBar />
+          <div ><FilterSideBar /></div>
       </div>
     );
   }

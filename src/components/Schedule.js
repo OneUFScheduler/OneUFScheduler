@@ -29,6 +29,7 @@ class Schedule extends React.Component{
 componentDidUpdate(prevProps) {
 
      if(this.props.genButton === true){
+        console.log("yes");
           
             if (this.props.numClass !== prevProps.numClass) {
                 this.setState({numClass: this.props.numClass});
@@ -46,6 +47,9 @@ componentDidUpdate(prevProps) {
             }
        // }
            // this.setState({genButton: this.props.genButton})
+      }
+      else{
+        console.log("false");
       }
   }
 
