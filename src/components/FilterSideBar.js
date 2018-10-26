@@ -4,6 +4,14 @@ import { Card, CardBody, CardTitle, FormGroup, Label, Input} from 'reactstrap';
 import Schedule from './Schedule';
 import data from './data.json';
 
+let information = {
+dropTime: "",
+dropNum: "",
+search: "",
+dropElective: "",
+genButton: ""
+}
+
 class FilterSideBar extends React.Component{
     constructor(props) {
         super(props);
@@ -13,18 +21,19 @@ class FilterSideBar extends React.Component{
     this.selectElect = this.selectElect.bind(this);
     this.toggleTime = this.toggleTime.bind(this);
     this.selectTime = this.selectTime.bind(this);
-    this.handleGen = this.handleGen.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
     this.onSearch = this.onSearch.bind(this);
     this.state = {
       dropdownOpen: false,
       dropdownOpenE: false,
       dropdownOpenT: false,
-      dropTime: "Time Preference",
-      dropNum: "Number of Classes",
-      dropElective: "Number of Electives",
+      dropTime: "No Preference",
+      dropNum: 5,
+      dropElective: 2,
       jsonData: data,
-      search: '',
+      search: "",
       genButton: false,
+      data: information
     };
 }
 toggle(event) {
@@ -63,17 +72,23 @@ toggle(event) {
     }));
   }
 
-  handleGen(event){
-      event.preventDefault();
-    this.setState(prevState => ({
-        genButton: true
-      }));
-  }
-
 
   onSearch(event){
       this.setState({
           search: event.target.value
+      })
+ }
+
+ onSubmit(event){
+      let info = {
+              dropTime: this.state.dropTime,
+              dropNum: this.state.dropNum,
+              search: this.state.search,
+              dropElective: this.state.dropElective,
+              genButton: true
+          }
+      this.setState({
+        data: info
       })
  }
 
@@ -142,12 +157,12 @@ toggle(event) {
                 <Input type="class" name="class" placeholder="input course code" onChange={this.onSearch} />
                 </FormGroup>
                 
-                <Button color="primary" size="lg" onClick={this.handleGen}>Generate</Button>
+                <Button color="primary" size="lg" onClick={this.onSubmit}>Generate</Button>
                 
             </CardBody>
             </Card>
             <div class="column">
-            <Schedule genButton={this.state.genButton} numElect={this.state.dropElective} numClass={this.state.dropNum} timePref={this.state.dropTime} specificClass={this.state.search}> </Schedule>
+            <Schedule genButton={this.state.data.genButton} numElect={this.state.data.dropElective} numClass={this.state.data.dropNum} timePref={this.state.data.dropTime} specificClass={this.state.data.search}> </Schedule>
             </div>
             </div>
         )

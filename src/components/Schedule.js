@@ -28,25 +28,25 @@ class Schedule extends React.Component{
 }
 componentDidUpdate(prevProps) {
 
- // if(this.props.genButton === true)
-      
-        if (this.props.numClass !== prevProps.numClass) {
-            this.setState({numClass: this.props.numClass});
-        }
-        if (this.props.timePref !== prevProps.timePref) {
-            this.setState({timePref: this.props.timePref});
-            this.detTime()
-        }
-        if (this.props.numElect !== prevProps.numElect) {
-            this.setState({numElect: this.props.numElect});
-        }
-        if(this.props.specificClass !== prevProps.specificClass) {
-            this.setState({specificClass: this.props.specificClass})
-            this.findClass();
-        }
-   // }
-       // this.setState({genButton: this.props.genButton})
-  // }
+     if(this.props.genButton === true){
+          
+            if (this.props.numClass !== prevProps.numClass) {
+                this.setState({numClass: this.props.numClass});
+            }
+            if (this.props.timePref !== prevProps.timePref) {
+                this.setState({timePref: this.props.timePref});
+                this.detTime()
+            }
+            if (this.props.numElect !== prevProps.numElect) {
+                this.setState({numElect: this.props.numElect});
+            }
+            if(this.props.specificClass !== prevProps.specificClass) {
+                this.setState({specificClass: this.props.specificClass})
+                this.findClass();
+            }
+       // }
+           // this.setState({genButton: this.props.genButton})
+      }
   }
 
     toggleModal() {
@@ -173,6 +173,13 @@ componentDidUpdate(prevProps) {
                 </thead>
                 <tbody>
                 {this.checkSpecific}
+                {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
+                <tr>
+                    <td>{c.code}</td>
+                    <td>{c.name}</td>
+                    <td>{c.sections[0].credits}</td>
+                </tr>
+                )}
                 {this.state.filteredElect.slice(0,this.props.numElect).map((c) =>
                     <tr>
                         <td>{c.code}</td>
@@ -188,23 +195,7 @@ componentDidUpdate(prevProps) {
                         </td>
                         <td>{c.sections[0].credits}</td>
                     </tr>
-                    )}
-                    {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
-                    <tr>
-                        <td>{c.code}</td>
-                        <td><UncontrolledDropdown>>
-                            <DropdownToggle caret>
-                                {c.name}
-                            </DropdownToggle>
-                            <DropdownMenu>
-                                <DropdownItem onClick={this.state.select}>Some other Class Name @ MWF</DropdownItem>
-                                <DropdownItem onClick={this.state.select}>Another Class @ some time</DropdownItem>
-                            </DropdownMenu>
-                            </UncontrolledDropdown>
-                        </td>
-                        <td>{c.sections[0].credits}</td>
-                    </tr>
-                    )}
+                )}
                 </tbody>
                 </Table>
             </CardBody>
