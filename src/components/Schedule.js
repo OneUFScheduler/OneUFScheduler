@@ -30,7 +30,7 @@ componentDidUpdate(prevProps) {
 
      if(this.props.genButton === true){
         console.log("yes");
-          
+
             if (this.props.numClass !== prevProps.numClass) {
                 this.setState({numClass: this.props.numClass});
             }
@@ -59,18 +59,27 @@ componentDidUpdate(prevProps) {
         }));
     }
 
-    //this is correctly saving the desired class info, but cant get it show up 
+    //this is correctly saving the desired class info, but cant get it show up
     findClass(){
+			var desClass = []
         data.map((c) => {
+
             if(c.code === this.props.specificClass){
-                this.setState({foundClass: c})
+							  desClass.push(c);
+                this.setState({foundClass: desClass});
+								console.log(desClass);
+								console.log(this.state.foundClass);
+								console.log("HELLO");
+
             }
         })
-        techE.map((c)=>{
+      /*  techE.map((c)=>{
             if(c.code === this.props.specificClass){
                 this.setState({foundClass: c})
+
             }
-        })
+        })*/
+
     }
 
     detTime(){
@@ -90,7 +99,7 @@ componentDidUpdate(prevProps) {
                         }
                     }
                 }catch(e){
-                    console.log('error', e);        
+                    console.log('error', e);
                 }
             })
             this.setState({filteredElect : sTime})
@@ -111,10 +120,12 @@ componentDidUpdate(prevProps) {
                         }
                     }
                 }catch(e){
-                    console.log('error', e);        
+                    console.log('error', e);
                 }
             })
             this.setState({filteredElect : sTime})
+						console.log("Hello2");
+						console.log(this.state.filteredElect)
         }
     }
 
@@ -186,15 +197,10 @@ componentDidUpdate(prevProps) {
                 )}
                 {this.state.filteredElect.slice(0,this.props.numElect).map((c) =>
                     <tr>
-                        <td>{c.code}</td>
+                        <td>Tech Elective</td>
                         <td>
-                        <UncontrolledDropdown>>
-                            <DropdownToggle caret>
-                            {c.name}
-                            </DropdownToggle>
-                            <DropdownMenu>
-                                <DropdownItem onClick={this.state.select}>{optionItems}</DropdownItem>
-                            </DropdownMenu>
+                        <UncontrolledDropdown>
+                              <select>{optionItems}</select>
                         </UncontrolledDropdown>
                         </td>
                         <td>{c.sections[0].credits}</td>
