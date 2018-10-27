@@ -180,7 +180,15 @@ componentDidUpdate(prevProps) {
                 {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
                 <tr>
                     <td>{c.code}</td>
-                    <td>{c.name}</td>
+                    <td><a href='#' onClick={this.toggleModal}> {c.name} </a></td>
+                    <Modal isOpen={this.state.modal} toggle={this.toggleModal} >
+                            <ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
+                            <ModalBody>
+                                {c.description} {c.prerequisites}
+                            </ModalBody>
+                            <ModalFooter>
+                            </ModalFooter>
+                        </Modal>
                     <td>{c.sections[0].credits}</td>
                 </tr>
                 )}
