@@ -4,6 +4,9 @@ import {UncontrolledDropdown, Button, Modal, ModalHeader, ModalBody, ModalFooter
 
 import data from './data.json';
 import techE from './te.json';
+import taken from './person.json';
+
+
 
 class Schedule extends React.Component{
     constructor(props) {
@@ -85,27 +88,6 @@ componentDidUpdate(prevProps) {
   }
 
 
-    // findClass(){
-    //     var desClass = []
-    //     if(this.props.specificClass !== ''){
-    //         data.map((c) => {
-    //             try{
-    //
-    //                     if(c.code === this.props.specificClass){
-    //                         desClass.push(c)
-    //                     }
-    //
-    //             }catch(e){
-    //                 console.log('error', e);
-    //             }
-    //         })
-    //         this.setState({foundClass : desClass})
-    //         console.log("HELLOFROMSPECIFCCLASS") //for debugging purposes
-    //         console.log(this.state.foundClass)  //returning Null BUT WHY
-    //         console.log("HELLOFROMSPECIFCCLASS")  //for debugging purposes
-    //     }
-    // }
-
 
 
     detTime(){
@@ -158,7 +140,11 @@ componentDidUpdate(prevProps) {
 
     checkSpecific(){
         if(this.state.foundClass !== null){
+          console.log("This is foundclass within checkSpecific:")
+          console.log(this.state.foundClass)
             this.state.foundClass.map((c) => {
+              console.log("This is the name of the class within c.code in checkSpecific()")
+              console.log(c.name)
                 return (
                     <tr>
                         <td>{c.code}</td>
@@ -214,7 +200,7 @@ componentDidUpdate(prevProps) {
                     </tr>
                 </thead>
                 <tbody>
-                {this.checkSpecific}
+                {this.checkSpecific()}
                 {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
                 <tr>
                     <td>{c.code}</td>
