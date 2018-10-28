@@ -105,13 +105,13 @@ toggle(event) {
       }
  }
 
- createElectiveList() {    
+ createElectiveList() {
     let items = []
-     for (let i = 0; i <= this.state.dropNum; i++) {             
-          items.push(<DropdownItem value={i} onClick={this.selectElect}>{i}</DropdownItem>);   
+     for (let i = 0; i <= this.state.dropNum; i++) {
+          items.push(<DropdownItem value={i} onClick={this.selectElect}>{i}</DropdownItem>);
      }
      return items
-  }  
+  }
 
     render(){
         return (
@@ -138,7 +138,7 @@ toggle(event) {
                       </DropdownMenu>
                       </Dropdown>
                       <br />
-                      
+
                       <ptitle>Specify Number of Electives</ptitle>
                       <Dropdown value = {this.state.dropElect} isOpen={this.state.dropdownOpenE} toggle={this.toggleElect}>
                       <DropdownToggle caret>
@@ -149,7 +149,7 @@ toggle(event) {
                       </DropdownMenu>
                       </Dropdown>
                       <br />
-                      
+
                       <ptitle>Specify Time Preference</ptitle>
                       <Dropdown value = {this.state.dropTime} isOpen={this.state.dropdownOpenT} toggle={this.toggleTime}>
                       <DropdownToggle caret>
@@ -159,7 +159,7 @@ toggle(event) {
                           <DropdownItem value="AM" onClick={this.selectTime}>AM</DropdownItem>
                           <DropdownItem value="PM" onClick={this.selectTime}>PM</DropdownItem>
                           <DropdownItem divider />
-                          <DropdownItem value =" " onClick={this.selectTime}>Clear</DropdownItem>
+                          <DropdownItem value ="No Preference" onClick={this.selectTime}>No Preference</DropdownItem>
                       </DropdownMenu>
                       </Dropdown>
                       <br />
@@ -170,7 +170,7 @@ toggle(event) {
                       </FormGroup>
                       <div><font color="red">{this.state.numElectiveError}</font></div>
                       <Button color="primary" size="lg" onClick={this.onSubmit}>Generate</Button>
-                      
+
                   </CardBody>
                   </Card>
                 </Col>
