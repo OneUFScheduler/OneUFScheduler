@@ -138,27 +138,14 @@ componentDidUpdate(prevProps) {
         }
     }
 
-    makeDropDown(){
-        this.state.filteredElect.map((c) =>{
-            return(
-            <UncontrolledDropdown>>
-                <DropdownToggle caret>
-                {c.code + c.name}
-                </DropdownToggle>
-                <DropdownMenu>
-                    <DropdownItem onClick={this.state.select}>{c.code +c.name}</DropdownItem>
-                </DropdownMenu>
-            </UncontrolledDropdown>
-            )
-        })
-    }
-
     render(){
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
             );
+        let numOtherClasses = this.state.numClass;
         let includeSpecific;
         if(this.state.foundClass !== null){
+            numOtherClasses = numOtherClasses -1;
             includeSpecific = (
                 this.state.foundClass.map((c) => {
                     return (
@@ -193,7 +180,7 @@ componentDidUpdate(prevProps) {
                 </thead>
                 <tbody>
                 {includeSpecific}
-                {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
+                {this.state.filteredData.slice(0,(numOtherClasses-this.props.numElect)).map((c) =>
                 <tr>
                     <td>{c.code}</td>
                     <td>{c.name}</td>
