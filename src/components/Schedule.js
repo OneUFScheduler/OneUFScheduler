@@ -62,29 +62,51 @@ componentDidUpdate(prevProps) {
     //this is correctly saving the desired class info, but cant get it show up
     findClass(){
 			var desClass = []
-        data.map((c) => {
+      data.map((c) => {
+                if(c.code === this.props.specificClass){
+          		  desClass.push(c);
+              }
+            })
 
-            if(c.code === this.props.specificClass){
-							  desClass.push(c);
-                this.setState({foundClass: desClass});
-								this.setState({foundClass: desClass});
-								console.log(desClass);
-								console.log(this.state.foundClass);
-								console.log("HELLO");
+            this.setState({
+              foundClass: desClass
+            },() => {
+                console.log("HELLOFROMSPECIFCCLASS") //for debugging purposes
+                console.log(this.state.foundClass);
+                console.log("HELLO FROM THIS SHIT WORKING")
+            });
 
-            }
-						this.setState({foundClass: desClass});
-						console.log(this.state.foundClass);
-        })
-      /*  techE.map((c)=>{
+      /*  techE.map((c)=>{  //This is for TechE once we get regular working
             if(c.code === this.props.specificClass){
                 this.setState({foundClass: c})
 
             }
         })*/
-				this.setState({foundClass: desClass});
-				console.log(this.state.foundClass);
-    }
+  }
+
+
+    // findClass(){
+    //     var desClass = []
+    //     if(this.props.specificClass !== ''){
+    //         data.map((c) => {
+    //             try{
+    //
+    //                     if(c.code === this.props.specificClass){
+    //                         desClass.push(c)
+    //                     }
+    //
+    //             }catch(e){
+    //                 console.log('error', e);
+    //             }
+    //         })
+    //         this.setState({foundClass : desClass})
+    //         console.log("HELLOFROMSPECIFCCLASS") //for debugging purposes
+    //         console.log(this.state.foundClass)  //returning Null BUT WHY
+    //         console.log("HELLOFROMSPECIFCCLASS")  //for debugging purposes
+    //     }
+    // }
+
+
 
     detTime(){
         var sTime = []
@@ -130,6 +152,7 @@ componentDidUpdate(prevProps) {
             this.setState({filteredElect : sTime})
 						console.log("Hello2");
 						console.log(this.state.filteredElect)
+            console.log("Hello2End");
         }
     }
 
