@@ -67,11 +67,14 @@ componentDidUpdate(prevProps) {
             if(c.code === this.props.specificClass){
 							  desClass.push(c);
                 this.setState({foundClass: desClass});
+								this.setState({foundClass: desClass});
 								console.log(desClass);
 								console.log(this.state.foundClass);
 								console.log("HELLO");
 
             }
+						this.setState({foundClass: desClass});
+						console.log(this.state.foundClass);
         })
       /*  techE.map((c)=>{
             if(c.code === this.props.specificClass){
@@ -79,7 +82,8 @@ componentDidUpdate(prevProps) {
 
             }
         })*/
-
+				this.setState({foundClass: desClass});
+				console.log(this.state.foundClass);
     }
 
     detTime(){
