@@ -157,75 +157,32 @@ componentDidUpdate(prevProps) {
         }
     }
 
-    checkSpecific(){
-        if(this.state.foundClass !== null){
-          console.log("This is foundclass within checkSpecific:")
-          console.log(this.state.foundClass)
-            this.state.foundClass.map((c) => {
-              console.log("This is the name of the class within c.code in checkSpecific()")
-              console.log(c.name)
-                return (
-                    <tr>
-                        <td>{c.code}</td>
-                        <td><UncontrolledDropdown>>
-                            <DropdownToggle caret>
-                                {c.name}
-                            </DropdownToggle>
-                            <DropdownMenu>
-                                <DropdownItem onClick={this.state.select}>Some other Class Name @ MWF</DropdownItem>
-                                <DropdownItem onClick={this.state.select}>Another Class @ some time</DropdownItem>
-                            </DropdownMenu>
-                            </UncontrolledDropdown>
-                        </td>
-                        <td>{c.sections[0].credits}</td>
-                    </tr>
-                )
-            })
-        }
-        else return ''
-    }
-
-    makeDropDown(){
-        this.state.filteredElect.map((c) =>{
-            return(
-            <UncontrolledDropdown>>
-                <DropdownToggle caret>
-                {c.code + c.name}
-                </DropdownToggle>
-                <DropdownMenu>
-                    <DropdownItem onClick={this.state.select}>{c.code +c.name}</DropdownItem>
-                </DropdownMenu>
-            </UncontrolledDropdown>
-            )
-        })
-    }
-
     render(){
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
             );
-						var tooken = [];
-						Object.keys(taken).forEach(function(code) {
-							tooken.push(taken[code]);
-						});
-						console.log(tooken);
-						var arr = [];
-							Object.keys(data).forEach(function(code) {
-								arr.push(data[code]);
-							});
-							console.log(arr)
-							var i = 0;
-							while (i < tooken.length){
-								Object.keys(data).forEach(function(code) {
-									if(tooken[i].code == data[code].code)
-									{
-										arr.splice(code, 1);
-									}
-
-								});
-								i++;
-						}
-							console.log(arr);
+        let numOtherClasses = this.state.numClass;
+        let includeSpecific;
+        if(this.state.foundClass !== null){
+            numOtherClasses = numOtherClasses -1;
+            includeSpecific = (
+                this.state.foundClass.map((c) => {
+                    return (
+                    <tr>
+                    <td>{c.code}</td>
+                    <td><a href='#' onClick={this.toggleModal}> {c.name} </a></td>
+                    <Modal isOpen={this.state.modal} toggle={this.toggleModal} >
+                        <ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
+                        <ModalBody>
+                            {c.description} {c.prerequisites}
+                        </ModalBody>
+                        <ModalFooter>
+                        </ModalFooter>
+                    </Modal>
+                    <td>{c.sections[0].credits}</td>
+                </tr>
+            )}))}
+        else {includeSpecific = ''}
 
         return(
             <div class="column">
@@ -241,8 +198,8 @@ componentDidUpdate(prevProps) {
                     </tr>
                 </thead>
                 <tbody>
-                {this.checkSpecific()}
-                {this.state.filteredData.slice(0,(this.props.numClass-this.props.numElect)).map((c) =>
+                {includeSpecific}
+                {this.state.filteredData.slice(0,(numOtherClasses-this.props.numElect)).map((c) =>
                 <tr>
                     <td>{c.code}</td>
                     <td>{c.name}</td>
