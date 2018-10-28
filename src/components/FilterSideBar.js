@@ -120,7 +120,7 @@ toggle(event) {
                 <Col xs="6" sm="4">
                   <Card>
                   <CardBody>
-                      <CardTitle>Filtering Options</CardTitle>
+                      <CardTitle><strong>Filtering Options</strong></CardTitle>
                       <hr />
                       <ptitle>Specify Number of Classes</ptitle>
                       <Dropdown value = {this.state.dropNum} isOpen={this.state.dropdownOpen} toggle={this.toggle}>
