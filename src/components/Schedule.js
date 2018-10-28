@@ -27,8 +27,10 @@ class Schedule extends React.Component{
       numElect: null,
       specificClass: null,
       foundClass: null,
+			classTaken: taken,
     };
 }
+
 componentDidUpdate(prevProps) {
 
      if(this.props.genButton === true){
@@ -62,9 +64,9 @@ componentDidUpdate(prevProps) {
         }));
     }
 
-    //this is correctly saving the desired class info, but cant get it show up
+		//this is correctly saving the desired class info, but cant get it show up
     findClass(){
-			var desClass = []
+			var desClass = [];
       data.map((c) => {
                 if(c.code === this.props.specificClass){
           		  desClass.push(c);
@@ -87,7 +89,24 @@ componentDidUpdate(prevProps) {
         })*/
   }
 
+	findTaken(){
+			var took = []
+			taken.map((c) => {
+					try{
+							for(var i = 0; i < 1; i++){
+											took.push(c)
+							}
+							}catch(e){
+									console.log('error', e);
+							}
+					});
 
+				this.setState({classTaken : took})
+				console.log("Hello2");
+				console.log(this.state.classTaken)
+				console.log("Hello2End");
+
+	}
 
 
     detTime(){
@@ -185,6 +204,28 @@ componentDidUpdate(prevProps) {
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
             );
+						var tooken = [];
+						Object.keys(taken).forEach(function(code) {
+							tooken.push(taken[code]);
+						});
+						console.log(tooken);
+						var arr = [];
+							Object.keys(data).forEach(function(code) {
+								arr.push(data[code]);
+							});
+							console.log(arr)
+							var i = 0;
+							while (i < tooken.length){
+								Object.keys(data).forEach(function(code) {
+									if(tooken[i].code == data[code].code)
+									{
+										arr.splice(code, 1);
+									}
+
+								});
+								i++;
+						}
+							console.log(arr);
 
         return(
             <div class="column">

@@ -3,5 +3,8 @@
     "code": "COP3502",
     "courseId": "024105",
     "name": "Programming Fundamentals 1"
-   }
+	},
+	 {
+		 "code": "ENC1101"
+	 }
 ]
