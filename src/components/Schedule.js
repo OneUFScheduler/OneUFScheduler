@@ -161,6 +161,33 @@ componentDidUpdate(prevProps) {
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
             );
+						//filter out the class someone has already taken
+						var tooken = [];
+						Object.keys(taken).forEach(function(code) {
+							tooken.push(taken[code]);
+						});
+						console.log(tooken);
+						var arr = [];
+							Object.keys(data).forEach(function(code) {
+								arr.push(data[code]);
+							});
+							console.log(arr)
+							var i = 0;
+							var l = 0;
+							while (i < tooken.length){
+								l = 0;
+								Object.keys(data).forEach(function(code) {
+									l=0
+									if(tooken[i].code == data[code].code)
+									{
+										arr.splice(l, 1);
+									}
+									l++;
+								});
+								i++;
+						}
+							console.log(arr);
+
         let numOtherClasses = this.state.numClass;
         let includeSpecific;
         if(this.state.foundClass !== null){
@@ -198,11 +225,23 @@ componentDidUpdate(prevProps) {
                     </tr>
                 </thead>
                 <tbody>
+
+
                 {includeSpecific}
-                {this.state.filteredData.slice(0,(numOtherClasses-this.props.numElect)).map((c) =>
+                {arr.slice(0,(numOtherClasses-this.props.numElect)).map((c) =>
                 <tr>
                     <td>{c.code}</td>
-                    <td>{c.name}</td>
+
+										<td><a href='#' onClick={this.toggleModal}> {c.name} </a></td>
+
+										<Modal isOpen={this.state.modal} toggle={this.toggleModal} >
+												<ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
+												<ModalBody>
+														{c.description} {c.prerequisites}
+												</ModalBody>
+												<ModalFooter>
+												</ModalFooter>
+										</Modal>
                     <td>{c.sections[0].credits}</td>
                 </tr>
                 )}

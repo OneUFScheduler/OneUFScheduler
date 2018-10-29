@@ -1,10 +1,23 @@
 [
-	{
-    "code": "COP3502",
-    "courseId": "024105",
-    "name": "Programming Fundamentals 1"
-	},
+	 {
+		 "code": ""
+	 },
 	 {
 		 "code": "ENC1101"
-	 }
+	 },
+	 {
+		 "code": "CHM2045L"
+	 },
+	 {
+		 "code": "MAC2311"
+	 },
+	 {
+		 "code": "COP3503"
+	 },
+	 {
+     "code": "CHM2045"
+ 	},
+	{
+		"code": "IDS1161"
+	}
 ]
