@@ -1,23 +1,23 @@
 [
 	 {
-		 "code": ""
-	 },
-	 {
-		 "code": "ENC1101"
+		 "code": "CHM2045"
 	 },
 	 {
 		 "code": "CHM2045L"
 	 },
 	 {
+		 "code": "COP3502"
+	 },
+	 {
 		 "code": "MAC2311"
 	 },
 	 {
-		 "code": "COP3503"
+		 "code": ""
 	 },
 	 {
-     "code": "CHM2045"
+     "code": ""
  	},
 	{
-		"code": "IDS1161"
+		"code": ""
 	}
 ]

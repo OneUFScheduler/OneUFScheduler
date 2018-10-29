@@ -130,6 +130,8 @@ componentDidUpdate(prevProps) {
                 }
             })
             this.setState({filteredElect : sTime})
+						console.log("AM")
+						console.log(this.state.filteredElect)
         }
         if(this.props.timePref == 'PM'){
             techE.map((c) => {
@@ -152,6 +154,7 @@ componentDidUpdate(prevProps) {
             })
             this.setState({filteredElect : sTime})
 						console.log("Hello2");
+						console.log("PM")
 						console.log(this.state.filteredElect)
             console.log("Hello2End");
         }
@@ -175,15 +178,22 @@ componentDidUpdate(prevProps) {
 							var i = 0;
 							var l = 0;
 							while (i < tooken.length){
-								l = 0;
-								Object.keys(data).forEach(function(code) {
-									l=0
-									if(tooken[i].code == data[code].code)
+
+								// Object.keys(arr).forEach(function(l) {
+								// 	if(tooken[i].code === data[l].code)
+								// 	{
+								// 		arr.splice(l, 1);
+								// 	}
+								// 	l++;
+								// });
+								// i++;
+								for(var k = 0; k < arr.length; k++)
+								{
+									if(arr[k].code == tooken[i].code)
 									{
-										arr.splice(l, 1);
+										arr.splice(k, 1);
 									}
-									l++;
-								});
+								}
 								i++;
 						}
 							console.log(arr);
