@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
-import {Card, CardBody, CardTitle, Table} from 'reactstrap';
+import {UncontrolledAlert, Alert, Card, CardBody, CardTitle, Table} from 'reactstrap';
 import {UncontrolledDropdown, Button, Modal, ModalHeader, ModalBody, ModalFooter, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 import data from './data.json';
 import techE from './te.json';
 import taken from './person.json';
 
-
-
 class Schedule extends React.Component{
     constructor(props) {
         super(props);
     this.toggleModal = this.toggleModal.bind(this);
+    this.toggleAlert = this.toggleAlert.bind(this);
 
     this.state = {
-     // dropdownOpen: false,
+
       modal: false,
-     // className: "Tech elective",
       numClass: null,
-     // Jdata: this.props.data,
+      alert: false,
       timePref: null,
       filteredData: data,
       filteredElect: techE,
@@ -27,7 +25,8 @@ class Schedule extends React.Component{
       numElect: null,
       specificClass: null,
       foundClass: null,
-			classTaken: taken,
+      classTaken: taken,
+      suggest: null,
     };
 }
 
@@ -64,6 +63,12 @@ componentDidUpdate(prevProps) {
         }));
     }
 
+    toggleAlert(){
+        this.setState(prevState => ({
+            alert: !this.state.alert
+        }));
+    }
+
 		//this is correctly saving the desired class info, but cant get it show up
     findClass(){
 			var desClass = [];
@@ -76,9 +81,9 @@ componentDidUpdate(prevProps) {
             this.setState({
               foundClass: desClass
             },() => {
-                console.log("HELLOFROMSPECIFCCLASS") //for debugging purposes
+               // console.log("HELLOFROMSPECIFCCLASS") //for debugging purposes
                 console.log(this.state.foundClass);
-                console.log("HELLO FROM THIS SHIT WORKING")
+               // console.log("HELLO FROM THIS SHIT WORKING")
             });
 
       /*  techE.map((c)=>{  //This is for TechE once we get regular working
@@ -102,9 +107,9 @@ componentDidUpdate(prevProps) {
 					});
 
 				this.setState({classTaken : took})
-				console.log("Hello2");
+				//console.log("Hello2");
 				console.log(this.state.classTaken)
-				console.log("Hello2End");
+				//console.log("Hello2End");
 
 	}
 
@@ -153,10 +158,10 @@ componentDidUpdate(prevProps) {
                 }
             })
             this.setState({filteredElect : sTime})
-						console.log("Hello2");
+						//console.log("Hello2");
 						console.log("PM")
 						console.log(this.state.filteredElect)
-            console.log("Hello2End");
+           // console.log("Hello2End");
         }
     }
 
@@ -168,7 +173,8 @@ componentDidUpdate(prevProps) {
 						var tooken = [];
 						Object.keys(taken).forEach(function(code) {
 							tooken.push(taken[code]);
-						});
+                        });
+                        
 						console.log(tooken);
 						var arr = [];
 							Object.keys(data).forEach(function(code) {
@@ -203,7 +209,7 @@ componentDidUpdate(prevProps) {
         if(this.state.foundClass !== null){
             numOtherClasses = numOtherClasses -1;
             includeSpecific = (
-                this.state.foundClass.map((c) => {
+                this.state.foundClass.map((c, index) => {
                     return (
                     <tr>
                     <td>{c.code}</td>
@@ -214,6 +220,7 @@ componentDidUpdate(prevProps) {
                             {c.description} {c.prerequisites}
                         </ModalBody>
                         <ModalFooter>
+                        
                         </ModalFooter>
                     </Modal>
                     <td>{c.sections[0].credits}</td>
@@ -238,8 +245,8 @@ componentDidUpdate(prevProps) {
 
 
                 {includeSpecific}
-                {arr.slice(0,(numOtherClasses-this.props.numElect)).map((c) =>
-                <tr>
+                {arr.slice(0,(numOtherClasses-this.props.numElect)).map((c, index) =>
+                <tr key={index}>
                     <td>{c.code}</td>
 
 										<td><a href='#' onClick={this.toggleModal}> {c.name} </a></td>
@@ -250,7 +257,9 @@ componentDidUpdate(prevProps) {
 														{c.description} {c.prerequisites}
 												</ModalBody>
 												<ModalFooter>
-												</ModalFooter>
+                                                        
+												
+                                                </ModalFooter>
 										</Modal>
                     <td>{c.sections[0].credits}</td>
                 </tr>
@@ -268,6 +277,16 @@ componentDidUpdate(prevProps) {
                 )}
                 </tbody>
                 </Table>
+                <Button color="primary" size="lg" onClick={this.toggleAlert}>Register Classes</Button>
+                {this.props.genButton ? (
+                    <Alert color="success" isOpen={this.state.alert} toggle={this.toggleAlert}>
+                    Successfully registered classes
+                    </Alert>
+                ) : (
+                    <Alert color="danger" isOpen={this.state.alert} toggle={this.toggleAlert}>
+                    Could not register for classes
+                    </Alert>
+                )}
             </CardBody>
             </Card>
            </div>
