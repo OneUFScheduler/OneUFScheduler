@@ -169,6 +169,7 @@ componentDidUpdate(prevProps) {
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
             );
+        
 						//filter out the class someone has already taken
 						var tooken = [];
 						Object.keys(taken).forEach(function(code) {
@@ -209,21 +210,16 @@ componentDidUpdate(prevProps) {
         if(this.state.foundClass !== null){
             numOtherClasses = numOtherClasses -1;
             includeSpecific = (
-                this.state.foundClass.map((c, index) => {
+                this.state.foundClass.map((specific, index) => {
                     return (
                     <tr>
-                    <td>{c.code}</td>
-                    <td><a href='#' onClick={this.toggleModal}> {c.name} </a></td>
+                    <td>{specific.code}</td>
+                    <td><a href='#' onClick={this.toggleModal}> {specific.name} </a></td>
                     <Modal isOpen={this.state.modal} toggle={this.toggleModal} >
                         <ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
-                        <ModalBody>
-                            {c.description} {c.prerequisites}
-                        </ModalBody>
-                        <ModalFooter>
-                        
-                        </ModalFooter>
+                         <PopupTable data_class={specific}></PopupTable>
                     </Modal>
-                    <td>{c.sections[0].credits}</td>
+                    <td>{specific.sections[0].credits}</td>
                 </tr>
             )}))}
         else {includeSpecific = ''}
@@ -242,29 +238,22 @@ componentDidUpdate(prevProps) {
                     </tr>
                 </thead>
                 <tbody>
-
-
                 {includeSpecific}
-                {arr.slice(0,(numOtherClasses-this.props.numElect)).map((c, index) =>
+                {arr.slice(0,(numOtherClasses-this.props.numElect)).map((other, index) =>
                 <tr key={index}>
-                    <td>{c.code}</td>
+                    <td>{other.code}</td>
 
-										<td><a href='#' onClick={this.toggleModal}> {c.name} </a></td>
+										<td><a href='#' onClick={this.toggleModal}> {other.name} </a></td>
 
 										<Modal isOpen={this.state.modal} toggle={this.toggleModal} >
 												<ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
-												<ModalBody>
-														{c.description} {c.prerequisites}
-												</ModalBody>
-												<ModalFooter>
-                                                        
-												
-                                                </ModalFooter>
+                                                    <PopupTable data_class={other}></PopupTable>
+                                              
 										</Modal>
-                    <td>{c.sections[0].credits}</td>
+                    <td>{other.sections[0].credits}</td>
                 </tr>
                 )}
-                {this.state.filteredElect.slice(0,this.props.numElect).map((c) =>
+                {this.state.filteredElect.slice(0,this.props.numElect).map((elect) =>
                     <tr>
                         <td>Tech Elective</td>
                         <td>
@@ -272,7 +261,7 @@ componentDidUpdate(prevProps) {
                               <select>{optionItems}</select>
                         </UncontrolledDropdown>
                         </td>
-                        <td>{c.sections[0].credits}</td>
+                        <td>{elect.sections[0].credits}</td>
                     </tr>
                 )}
                 </tbody>
@@ -292,6 +281,66 @@ componentDidUpdate(prevProps) {
            </div>
         )
     }
+}
+
+class PopupTable extends React.PureComponent{
+    render(){
+        var d = this.props.data_class
+        console.log(d);
+        var c_time_beg = []
+        var c_time_end = []
+        var c_prof = []
+        var c_loc = []
+        var c_room = []
+        
+            
+                for(var index = 0; index <5; index ++){
+                    try{
+                    c_time_beg.push(d.sections[index].meetTimes[index].meetTimeBegin)
+                }catch(e){
+                    console.log('error', e);
+                }
+                try{
+                    c_time_end.push(d.sections[index].meetTimes[index].meetTimeEnd)
+                }catch(e){
+                    console.log('error', e);
+                try{
+                    c_loc.push(d.sections[index].meetTimes[index].meetBuilding)
+                }catch(e){
+                    c_loc.push("TBD");
+                try{
+                    c_room.push(d.sections[index].meetTimes[index].meetRoom)
+                }catch(e){
+                    c_room.push("TBD")
+                }
+                try{
+                    c_prof.push(d.sections[index].instructors[index].name[index])
+                }catch(e){
+                    c_prof.push("TBD")
+                }
+            }
+        console.log(c_time_beg[0])
+        console.log(c_time_end[0])
+        console.log(c_loc[0])
+        console.log(c_room[0])
+        console.log(c_prof[0])
+        return(
+            <div>
+            <ModalBody>
+                {d.description} {d.prerequisites}
+            </ModalBody>
+            <ModalFooter>
+                Class time: {c_time_beg[0]} - {c_time_end[0]}
+            <div className="display-linebreak"> 
+                Location: {c_loc[0]} {c_room[0]}
+            </div>
+                Professor: {c_prof[0]}
+            </ModalFooter>
+            </div>
+        )
+    }
+    }
+}
 }
 
 export default Schedule;
