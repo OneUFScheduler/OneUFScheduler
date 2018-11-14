@@ -169,13 +169,14 @@ componentDidUpdate(prevProps) {
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
             );
-        
+
+
 						//filter out the class someone has already taken
 						var tooken = [];
 						Object.keys(taken).forEach(function(code) {
 							tooken.push(taken[code]);
                         });
-                        
+
 						console.log(tooken);
 						var arr = [];
 							Object.keys(data).forEach(function(code) {
@@ -203,7 +204,29 @@ componentDidUpdate(prevProps) {
 								}
 								i++;
 						}
-							console.log(arr);
+						let sectionsArr = []
+
+						for(var n = 0; n < arr.length; n++)
+						{
+							for(var t = 0; t < arr[n].sections.length; t++)
+							{
+								try{
+								sectionsArr.push(arr[n].sections[t].meetTimes[t].meetTimeEnd)
+
+								}catch(e)
+								{
+									console.log(e);
+								}
+							}
+
+
+						}
+						console.log("HELLOOOOO")
+							console.log(sectionsArr);
+							// let sectionsArr = arr.map((m) =>
+							// 				<option key={m.code}>{m.code + " " + m.name}</option>
+							//
+							// 		);
 
         let numOtherClasses = this.state.numClass;
         let includeSpecific;
@@ -212,6 +235,7 @@ componentDidUpdate(prevProps) {
             includeSpecific = (
                 this.state.foundClass.map((specific, index) => {
                     return (
+
                     <tr>
                     <td>{specific.code}</td>
                     <td><a href='#' onClick={this.toggleModal}> {specific.name} </a></td>
@@ -234,7 +258,9 @@ componentDidUpdate(prevProps) {
                     <tr>
                         <th>Class Type</th>
                         <th>Class Info</th>
+
                         <th>Number of Credits</th>
+												<th>Sections</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -244,13 +270,15 @@ componentDidUpdate(prevProps) {
                     <td>{other.code}</td>
 
 										<td><a href='#' onClick={this.toggleModal}> {other.name} </a></td>
-
 										<Modal isOpen={this.state.modal} toggle={this.toggleModal} >
 												<ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
                                                     <PopupTable data_class={other}></PopupTable>
-                                              
+
 										</Modal>
                     <td>{other.sections[0].credits}</td>
+										<UncontrolledDropdown>
+												 <select>{sectionsArr}</select>
+									 </UncontrolledDropdown>
                 </tr>
                 )}
                 {this.state.filteredElect.slice(0,this.props.numElect).map((elect) =>
@@ -289,14 +317,38 @@ class PopupTable extends React.PureComponent{
         console.log(d);
         var c_time_beg = []
         var c_time_end = []
+				var c_day = []
+				var c_dis_time = []
         var c_prof = []
         var c_loc = []
         var c_room = []
-        
-            
-                for(var index = 0; index <5; index ++){
+        var cap = 0;
+				var test = 1;
+				var spot = 0;
+            while(true)
+						{
+							var check = d.sections[spot];
+							if(check != null)
+							{
+								cap++;
+								spot++;
+							}
+							else{
+								break;
+							}
+							if((check == 0 || check == null) && cap == 0)
+							{
+								break;
+							}
+
+						}
+						console.log("HOWDY");
+						console.log(cap);
+                for(var index = 0; index < cap-1; index ++){
                     try{
                     c_time_beg.push(d.sections[index].meetTimes[index].meetTimeBegin)
+										c_day.push(d.sections[index].meetTimes[index].meetDays)
+										c_dis_time.push(d.sections[index].meetTimes[index+1].meetTimeBegin)
                 }catch(e){
                     console.log('error', e);
                 }
@@ -321,6 +373,7 @@ class PopupTable extends React.PureComponent{
             }
         console.log(c_time_beg[0])
         console.log(c_time_end[0])
+				console.log(c_day[0])
         console.log(c_loc[0])
         console.log(c_room[0])
         console.log(c_prof[0])
@@ -331,7 +384,18 @@ class PopupTable extends React.PureComponent{
             </ModalBody>
             <ModalFooter>
                 Class time: {c_time_beg[0]} - {c_time_end[0]}
-            <div className="display-linebreak"> 
+								<div>
+								Class day: {c_day[0]}
+								</div>
+								<div>
+								Discussion Day: {c_day[1]}
+
+								</div>
+								<div>
+								Dis time: {c_dis_time[0]}
+								</div>
+
+            <div className="display-linebreak">
                 Location: {c_loc[0]} {c_room[0]}
             </div>
                 Professor: {c_prof[0]}
