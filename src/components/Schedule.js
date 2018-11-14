@@ -159,8 +159,8 @@ componentDidUpdate(prevProps) {
             })
             this.setState({filteredElect : sTime})
 						//console.log("Hello2");
-						console.log("PM")
-						console.log(this.state.filteredElect)
+						//console.log("PM")
+					//	console.log(this.state.filteredElect)
            // console.log("Hello2End");
         }
     }
@@ -204,30 +204,7 @@ componentDidUpdate(prevProps) {
 								}
 								i++;
 						}
-						let sectionsArr = []
-
-						for(var n = 0; n < arr.length; n++)
-						{
-							for(var t = 0; t < arr[n].sections.length; t++)
-							{
-								try{
-								sectionsArr.push(arr[n].sections[t].meetTimes[t].meetTimeEnd)
-
-								}catch(e)
-								{
-									console.log(e);
-								}
-							}
-
-
-						}
-						console.log("HELLOOOOO")
-							console.log(sectionsArr);
-							// let sectionsArr = arr.map((m) =>
-							// 				<option key={m.code}>{m.code + " " + m.name}</option>
-							//
-							// 		);
-
+						
         let numOtherClasses = this.state.numClass;
         let includeSpecific;
         if(this.state.foundClass !== null){
@@ -258,9 +235,8 @@ componentDidUpdate(prevProps) {
                     <tr>
                         <th>Class Type</th>
                         <th>Class Info</th>
-
                         <th>Number of Credits</th>
-												<th>Sections</th>
+						<th>Meet Time</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -271,13 +247,14 @@ componentDidUpdate(prevProps) {
 
 										<td><a href='#' onClick={this.toggleModal}> {other.name} </a></td>
 										<Modal isOpen={this.state.modal} toggle={this.toggleModal} >
-												<ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
+												<ModalHeader toggle={this.toggleModal}>
+                                                Class Description</ModalHeader>
                                                     <PopupTable data_class={other}></PopupTable>
 
 										</Modal>
                     <td>{other.sections[0].credits}</td>
 										<UncontrolledDropdown>
-												 <select>{sectionsArr}</select>
+												 <Sections selects = {other}></Sections>
 									 </UncontrolledDropdown>
                 </tr>
                 )}
@@ -290,6 +267,7 @@ componentDidUpdate(prevProps) {
                         </UncontrolledDropdown>
                         </td>
                         <td>{elect.sections[0].credits}</td>
+                        <td>NA</td>
                     </tr>
                 )}
                 </tbody>
@@ -310,6 +288,54 @@ componentDidUpdate(prevProps) {
         )
     }
 }
+
+class Sections extends React.PureComponent{
+    render(){
+        let sectionsArr = []
+        let sectionsEnd = []
+        let arr = this.props.selects
+        //console.log("THIS IS FOR TESTING")
+        console.log("SECTIONS LENGHT")
+        console.log(arr)
+        console.log(arr.sections.length)
+        let count = 0
+    
+
+							for(var t = 0; t < arr.sections.length; t++)
+							{
+								try{
+                                sectionsArr.push(arr.sections[t].meetTimes[t].meetTimeBegin)
+                                console.log(count++)
+                               // console.log(arr.sections[t].meetTimes[t].meetTimeEnd);
+
+								}catch(e)
+								{
+                                    //console.log(e);
+                                    continue
+                                }
+                                try{
+                                    sectionsEnd.push(arr.sections[t].meetTimes[t].meetTimeEnd)
+                                   // console.log(arr.sections[t].meetTimes[t].meetTimeEnd);
+    
+                                    }catch(e)
+                                    {
+                                       // console.log(e);
+                                       continue
+                                    }
+							}
+						//console.log("HELLOOOOO")
+                        //	console.log(sectionsArr);
+                       
+							sectionsArr = sectionsArr.map((m, index) =>
+						 			<option key={index}>{m} - {sectionsEnd[index]}</option>
+						);
+
+        return(
+            <select>{sectionsArr}</select>
+        )
+    }
+}
+
 
 class PopupTable extends React.PureComponent{
     render(){
@@ -342,8 +368,8 @@ class PopupTable extends React.PureComponent{
 							}
 
 						}
-						console.log("HOWDY");
-						console.log(cap);
+						//console.log("HOWDY");
+						//console.log(cap);
                 for(var index = 0; index < cap-1; index ++){
                     try{
                     c_time_beg.push(d.sections[index].meetTimes[index].meetTimeBegin)
@@ -383,7 +409,6 @@ class PopupTable extends React.PureComponent{
                 {d.description} {d.prerequisites}
             </ModalBody>
             <ModalFooter>
-                Class time: {c_time_beg[0]} - {c_time_end[0]}
 								<div>
 								Class day: {c_day[0]}
 								</div>
@@ -392,7 +417,7 @@ class PopupTable extends React.PureComponent{
 
 								</div>
 								<div>
-								Dis time: {c_dis_time[0]}
+								Discussion time: {c_dis_time[0]}
 								</div>
 
             <div className="display-linebreak">
