@@ -303,7 +303,6 @@ componentDidUpdate(prevProps) {
                                         <Modal isOpen={this.state.modal} toggle={this.toggle}>
                                         <ModalHeader toggle={this.toggle}>Class Description</ModalHeader>
                                         {this.displayInfo()}
-
                                         </Modal>
                     <td>{other.sections[0].credits}</td>
 										<UncontrolledDropdown>
