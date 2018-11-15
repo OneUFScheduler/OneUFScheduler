@@ -204,7 +204,7 @@ componentDidUpdate(prevProps) {
 								}
 								i++;
 						}
-						
+
         let numOtherClasses = this.state.numClass;
         let includeSpecific;
         if(this.state.foundClass !== null){
@@ -293,45 +293,55 @@ class Sections extends React.PureComponent{
     render(){
         let sectionsArr = []
         let sectionsEnd = []
+				let sectionsNum = []
+				let sectionsDay = []
         let arr = this.props.selects
         //console.log("THIS IS FOR TESTING")
-        console.log("SECTIONS LENGHT")
-        console.log(arr)
-        console.log(arr.sections.length)
+        //console.log("SECTIONS LENGHT")
+        //console.log(arr)
+        //console.log(arr.sections.length)
         let count = 0
-    
+				let broke = 0;
+				//console.log("DEBUG")
+				//console.log(arr.sections[3])
 
 							for(var t = 0; t < arr.sections.length; t++)
 							{
 								try{
-                                sectionsArr.push(arr.sections[t].meetTimes[t].meetTimeBegin)
-                                console.log(count++)
+									sectionsDay.push(arr.sections[t].meetTimes[0].meetDays)
+									sectionsNum.push(arr.sections[t].number)
+									sectionsArr.push(arr.sections[t].meetTimes[0].meetTimeBegin)
+                  //console.log(count++)
                                // console.log(arr.sections[t].meetTimes[t].meetTimeEnd);
 
-								}catch(e)
-								{
-                                    //console.log(e);
-                                    continue
-                                }
-                                try{
-                                    sectionsEnd.push(arr.sections[t].meetTimes[t].meetTimeEnd)
-                                   // console.log(arr.sections[t].meetTimes[t].meetTimeEnd);
-    
-                                    }catch(e)
-                                    {
-                                       // console.log(e);
-                                       continue
-                                    }
+								} catch(e){
+									//console.log("Not Working for: " + arr.sections[t])
+									//console.log(broke++)
+									//console.log(e)
+
+										continue
+                }
+                try{
+                    sectionsEnd.push(arr.sections[t].meetTimes[0].meetTimeEnd)
+                   // console.log(arr.sections[t].meetTimes[t].meetTimeEnd);
+
+                    }catch(e)
+                    {
+                       // console.log(e);
+                       continue
+                    }
 							}
 						//console.log("HELLOOOOO")
                         //	console.log(sectionsArr);
-                       
+
 							sectionsArr = sectionsArr.map((m, index) =>
-						 			<option key={index}>{m} - {sectionsEnd[index]}</option>
+						 			<option key={index}>Section {sectionsNum[index]}: {m} - {sectionsEnd[index]} Meet Days: {sectionsDay[index]}</option>
+
 						);
 
         return(
             <select>{sectionsArr}</select>
+						//<select>hi</select>
         )
     }
 }
@@ -341,95 +351,60 @@ class PopupTable extends React.PureComponent{
     render(){
         var d = this.props.data_class
         console.log(d);
-        var c_time_beg = []
-        var c_time_end = []
-				var c_day = []
-				var c_dis_time = []
         var c_prof = []
         var c_loc = []
         var c_room = []
+				var description = []
         var cap = 0;
 				var test = 1;
 				var spot = 0;
-            while(true)
-						{
-							var check = d.sections[spot];
-							if(check != null)
-							{
-								cap++;
-								spot++;
-							}
-							else{
-								break;
-							}
-							if((check == 0 || check == null) && cap == 0)
-							{
-								break;
-							}
-
-						}
 						//console.log("HOWDY");
 						//console.log(cap);
-                for(var index = 0; index < cap-1; index ++){
-                    try{
-                    c_time_beg.push(d.sections[index].meetTimes[index].meetTimeBegin)
-										c_day.push(d.sections[index].meetTimes[index].meetDays)
-										c_dis_time.push(d.sections[index].meetTimes[index+1].meetTimeBegin)
-                }catch(e){
-                    console.log('error', e);
-                }
                 try{
-                    c_time_end.push(d.sections[index].meetTimes[index].meetTimeEnd)
-                }catch(e){
-                    console.log('error', e);
-                try{
-                    c_loc.push(d.sections[index].meetTimes[index].meetBuilding)
+										description.push(d.description)
+										//console.log(d.description)
+                    c_loc.push(d.sections[0].meetTimes[0].meetBuilding)
                 }catch(e){
                     c_loc.push("TBD");
+									}
                 try{
-                    c_room.push(d.sections[index].meetTimes[index].meetRoom)
+                    c_room.push(d.sections[0].meetTimes[0].meetRoom)
                 }catch(e){
                     c_room.push("TBD")
                 }
                 try{
-                    c_prof.push(d.sections[index].instructors[index].name[index])
+                    c_prof.push(d.sections[0].instructors[0].name)
                 }catch(e){
                     c_prof.push("TBD")
                 }
-            }
-        console.log(c_time_beg[0])
-        console.log(c_time_end[0])
-				console.log(c_day[0])
-        console.log(c_loc[0])
-        console.log(c_room[0])
-        console.log(c_prof[0])
+
+        // console.log(c_loc[0])
+        // console.log(c_room[0])
+        // console.log(c_prof[0])
+				description = description.map((m, index) =>
+						<div key={index}>{description[index]}</div>
+
+
+			);
+			//console.log("DESC 0: ")
+			//console.log(description[0])
         return(
             <div>
             <ModalBody>
-                {d.description} {d.prerequisites}
+                {description} {d.prerequisites}
+								<br>
+								</br>
+								<br>
+								</br>
+								Location: {c_loc[0]} {c_room[0]} Professor: {c_prof}
             </ModalBody>
-            <ModalFooter>
-								<div>
-								Class day: {c_day[0]}
-								</div>
-								<div>
-								Discussion Day: {c_day[1]}
 
-								</div>
-								<div>
-								Discussion time: {c_dis_time[0]}
-								</div>
 
-            <div className="display-linebreak">
-                Location: {c_loc[0]} {c_room[0]}
-            </div>
-                Professor: {c_prof[0]}
-            </ModalFooter>
             </div>
         )
     }
     }
-}
-}
+
+
 
 export default Schedule;
