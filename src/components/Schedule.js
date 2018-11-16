@@ -216,11 +216,15 @@ componentDidUpdate(prevProps) {
                     <tr>
                     <td>{specific.code}</td>
                     <td><a href='#' onClick={this.toggleModal}> {specific.name} </a></td>
-                    <Modal isOpen={this.state.modal} toggle={this.toggleModal} >
+                    <Modal isOpen={this.state.modal} toggle={this.toggleModal} className={this.props.className}>
                         <ModalHeader toggle={this.toggleModal}>Class Description</ModalHeader>
+                        
                          <PopupTable data_class={specific}></PopupTable>
                     </Modal>
                     <td>{specific.sections[0].credits}</td>
+                    <UncontrolledDropdown>
+							<Sections selects = {specific}></Sections>
+					</UncontrolledDropdown>
                 </tr>
             )}))}
         else {includeSpecific = ''}
@@ -362,7 +366,7 @@ class PopupTable extends React.PureComponent{
 						//console.log(cap);
                 try{
 										description.push(d.description)
-										//console.log(d.description)
+										console.log(d.description)
                     c_loc.push(d.sections[0].meetTimes[0].meetBuilding)
                 }catch(e){
                     c_loc.push("TBD");
@@ -387,7 +391,6 @@ class PopupTable extends React.PureComponent{
 
 			);
 			//console.log("DESC 0: ")
-			//console.log(description[0])
         return(
             <div>
             <ModalBody>
