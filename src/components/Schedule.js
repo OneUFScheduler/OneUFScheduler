@@ -6,15 +6,17 @@ import data from './data.json';
 import techE from './te.json';
 import taken from './person.json';
 
+let info = {}
+
 class Schedule extends React.Component{
     constructor(props) {
         super(props);
-    this.toggleModal = this.toggleModal.bind(this);
     this.toggleAlert = this.toggleAlert.bind(this);
+    this.displayInfo = this.displayInfo.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
+    this.toggle = this.toggle.bind(this);
 
     this.state = {
-
-      modal: false,
       numClass: null,
       alert: false,
       timePref: null,
@@ -27,6 +29,8 @@ class Schedule extends React.Component{
       foundClass: null,
       classTaken: taken,
       suggest: null,
+      modal: false,
+      activeModal: info,
     };
 }
 
@@ -57,11 +61,6 @@ componentDidUpdate(prevProps) {
       }
   }
 
-    toggleModal() {
-        this.setState(prevState => ({
-            modal: !this.state.modal
-        }));
-    }
 
     toggleAlert(){
         this.setState(prevState => ({
@@ -165,6 +164,61 @@ componentDidUpdate(prevProps) {
         }
     }
 
+    displayInfo() {
+    // you can access the item object and the event object
+    console.log("This is being called from displayInfo" + this.state.activeModal);
+    var other = this.state.activeModal;
+    console.log("modal " + other);
+        var prerequisites = "";
+        var description = "";
+        var classLocation = "";
+        var classRoom = "";
+        var classProfessor = "";
+        try{
+            prerequisites = other.prerequisites;
+        }catch(e){
+            prerequisites = "*No Prerequisites"
+        }
+        try{
+            description = other.description
+        }catch(e){
+            description = "*No Description";
+        }
+        try{
+            classLocation = other.sections[0].meetTimes[0].meetBuilding;
+        }catch(e){
+            classLocation = "TBD";
+        }
+        try{
+            classRoom = other.sections[0].meetTimes[0].meetRoom;
+        }catch(e){
+            classRoom = "TBD";
+        }
+        try{
+            classProfessor = other.sections[0].instructors[0].name;
+        }catch(e){
+            classProfessor = "TBD";
+        }
+        return <ModalBody>{description} {prerequisites}<br></br><br></br>Location: {classLocation} {classRoom} Professor: {classProfessor}</ModalBody>;
+
+    }
+    toggle() {
+        this.setState({
+            modal: !this.state.modal,
+        });
+    }
+
+    toggleModal=(other)=>{
+        console.log("This was reached!");
+        console.log("heyooo " + other.description);
+        this.setState({
+            modal: !this.state.modal,
+            activeModal: other,
+        });
+        console.log("heyooo2 " + this.state.activeModal.description);
+    }
+
+
     render(){
         let optionItems = this.state.filteredElect.map((c) =>
                 <option key={c.code}>{c.code + " " + c.name}</option>
@@ -249,13 +303,12 @@ componentDidUpdate(prevProps) {
                 <tr key={index}>
                     <td>{other.code}</td>
 
-										<td><a href='#' onClick={this.toggleModal}> {other.name} </a></td>
-										<Modal isOpen={this.state.modal} toggle={this.toggleModal} >
-												<ModalHeader toggle={this.toggleModal}>
-                                                Class Description</ModalHeader>
-                                                    <PopupTable data_class={other}></PopupTable>
+										<td><a href='#' onClick={this.toggleModal.bind(this, other)}> {other.name} </a></td>
+                                        <Modal isOpen={this.state.modal} toggle={this.toggle}>
+                                        <ModalHeader toggle={this.toggle}>Class Description</ModalHeader>
+                                        {this.displayInfo()}
 
-										</Modal>
+                                        </Modal>
                     <td>{other.sections[0].credits}</td>
 										<UncontrolledDropdown>
 												 <Sections selects = {other}></Sections>
