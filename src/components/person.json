@@ -12,12 +12,39 @@
 		 "code": "MAC2311"
 	 },
 	 {
-		 "code": ""
+		 "code": "IDS1161"
 	 },
 	 {
-     "code": ""
+     "code": "ENC1101"
  	},
 	{
-		"code": ""
+		"code": "COP3503"
+	},
+	{
+		"code": "COP3530"
+	},
+	{
+		"code": "COT3100"
+	},
+	{
+		"code": "MAC2312"
+	},
+	{
+		"code": "PHY2049"
+	},
+	{
+		"code": "MAC2313"
+	},
+	{
+		"code": "PHY2048"
+	},
+	{
+		"code": "PHY2049L"
+	},
+	{
+		"code": "PHY2048L"
+	},
+	{
+		"code": "MAC2312"
 	}
 ]

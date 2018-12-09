@@ -319,7 +319,9 @@ componentDidUpdate(prevProps) {
                         </UncontrolledDropdown>
                         </td>
                         <td>{elect.sections[0].credits}</td>
-                        <td>NA</td>
+                        <td><UncontrolledDropdown>
+												 N/A
+									 </UncontrolledDropdown></td>
                     </tr>
                 )}
                 </tbody>
@@ -348,10 +350,7 @@ class Sections extends React.PureComponent{
 				let sectionsNum = []
 				let sectionsDay = []
         let arr = this.props.selects
-        //console.log("THIS IS FOR TESTING")
-        //console.log("SECTIONS LENGHT")
-        //console.log(arr)
-        //console.log(arr.sections.length)
+        
         let count = 0
 				let broke = 0;
 				//console.log("DEBUG")
